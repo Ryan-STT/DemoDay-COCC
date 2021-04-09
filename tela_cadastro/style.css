@@ -175,21 +175,3 @@ input:-webkit-autofill
 .password::first-letter {
     text-transform: capitalize;
 }
-.sign-in-js .first-content .first-column {
-    z-index: -1;
-}
-.sign-in-js .second-content .second-column {
-    z-index: 11;
-}
-.sign-in-js .second-content .first-column {
-    z-index: 13;
-}
-.sign-in-js .content::before {
-    left: 60%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    animation: slidein 1.3s;
-    z-index: 12;
-}
