@@ -14,10 +14,10 @@
 | ---------------------------
 | Gabriel Naves Cara 
 | João Lobato 
-| Juliany
-| Murilo
+| Juliany Aparecida De Almeida
+| Murilo Souza Silva
 | Thaina Lima Matos
-| Olavo
+| Olavo Nardari Leandro
 | Ryan De Souza Tomaz
 | Vinicius Gripp Ribeiro
 
