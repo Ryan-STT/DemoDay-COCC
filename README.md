@@ -11,6 +11,7 @@
 ## Integrantes
 
 |  Nome
+| ---------------------------
 | Gabriel Naves Cara 
 | João Lobato 
 | Juliany
