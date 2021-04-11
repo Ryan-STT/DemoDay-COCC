@@ -1,4 +1,4 @@
-/*HEADER*/
+/*1º Intercafe Header*/
 *{
     box-sizing: border-box;
 }
@@ -37,7 +37,7 @@ nav .container{
     margin-right: 100px;
     margin-top: 10px;
 }
-nav input[type=text],input[type=password]{
+nav input[type=email],input[type=password]{
     padding: 6px;
     margin-top: 8px;
     font-size: 17px;
@@ -45,7 +45,6 @@ nav input[type=text],input[type=password]{
     width: 150px;
 }
 .container button{
-    float: right;
     padding: 6px;
     margin-top: 8px;
     margin-right: 16px;
@@ -64,8 +63,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-
 /*Footer*/
+
 *{
     margin: 0;
     padding: 0;
@@ -144,8 +143,6 @@ padding: 0 15px;
     color: #24262b;
     background-color: rgba(245,201,214,255);
 }
-
-
 /*Links*/
 @media(max-width: 767px){
     .footer-col{
