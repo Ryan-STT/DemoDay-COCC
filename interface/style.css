@@ -1,69 +1,206 @@
-/*1º Intercafe Header*/
-*{
-    box-sizing: border-box;
-}
-body{
+/*Formatação da Pagina*/
+
+html,body{
     margin: 0;
     padding: 0;
+    width: 100;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: white top center no-repeat;
+    font-family: sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    font-family: sans-serif;
+
+/*Formatação do Cabeçalho*/
+
 }
 nav{
+    float: left;
     overflow: hidden;
     background: black;
-    line-height: 40px;
+    width: 90%;
+    line-height: 80px;
+
+/*Formatação do Menu de Icones*/
+
 }
 nav a{
     float: left;
+    margin-right: 60px;
     display: block;
-    width: 120px;
+    width: 11%;
+    height: 80px;
     color:white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 30px;
 }
 nav a:hover{
     background: rgba(245,201,214,255);
-    color: black;  
-}
-nav a.active{
-    background: #1296f3;
-    color: #fff;
-}
-nav .container{
-    float: right;
-    margin-right: 100px;
-    margin-top: 10px;
-}
-nav input[type=email],input[type=password]{
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border:none;
-    width: 150px;
-}
-.container button{
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #1296f3;
-    color: #fff;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-.container button:hover{
-    background:rgba(245,201,214,255);
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-body{
-    line-height: 1.5;
-    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 
-/*Footer*/
+/*Formatação do LogoTipo no Cabeçalho*/
+
+nav a.logoTipo{
+    float: left;
+}
+nav a.logoTipo:hover{
+    background: black;
+}
+
+/*Formatação do Icone de Login*/
+
+#escrita{
+    float: right;
+    width: 10%;
+    height: 80px;
+    background: rgba(245,201,214,255);
+    text-align: center;
+    font-size: 30px;
+}
+#escrita a{
+    width: 120px;
+    height: 80px;
+    color: black;
+    text-decoration: none;
+}
+
+/*Formatação do PopUp de Login*/
+
+.popup{
+    float: right;
+    width: 350px;
+    height: 340px;
+    border: solid 1px gray;
+    background-color: white;
+    display: none;
+    border-radius: 10%;
+    margin-right: 30px;
+}
+h6{
+    margin-top: 10px;
+    font-size: 10px;
+    text-decoration: none;
+}
+h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+/*Formatação da pagina de Login*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    padding: 0px 10px;
+    border: solid 1px #a0a0a0;
+    background-color: #ecf0f1;
+    font-size: 16px;
+}
+
+/*Formatação do PlaceHolder de Login*/
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+/*Formatação dos Icones da Pagina de Login*/
+
+.icon-modify {
+    color: #7f8c8d;
+    padding: 15px 15px;
+}
+
+/*Formatação do Botão de Login*/
+
+.btn1 {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.btn1-second {
+    background-color: #1296f3;
+    border: 1px solid #58af9b;
+    transition: background-color .5s;
+}
+.btn1-second:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #1296f3;
+}
+
+/* Formatação Banner*/
+
+#slider {
+    width: 80%;
+    height: 25vw;
+    position: fixed;
+    
+}
+#slider img {
+    
+    position: fixed;
+    opacity: 0;
+    width: 100%;
+    height: 63.5%;
+    transition: opacity 1200ms;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+/*Formatação do botão de Cadastro*/
+
+.btn2 {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 300px;
+    align-self: center;
+    border: none;
+    margin-top: 20px;
+}
+.btn2-cadastro {
+    background-color: #1296f3;
+    border: 1px solid #58af9b;
+    transition: background-color .5s;
+}
+.btn2-cadastro:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #1296f3;
+}
+
+/*Formatação do Rodapé*/
 
 *{
     margin: 0;
@@ -71,7 +208,7 @@ body{
     box-sizing: border-box;
 }
 .container{
-    max-width: 1170px;
+    max-width: 1177px;
     margin: auto;
 }
 .row{
@@ -143,7 +280,7 @@ padding: 0 15px;
     color: #24262b;
     background-color: rgba(245,201,214,255);
 }
-/*Links*/
+
 @media(max-width: 767px){
     .footer-col{
         width: 50%;
