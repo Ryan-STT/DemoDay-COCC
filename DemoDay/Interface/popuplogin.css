@@ -1,0 +1,129 @@
+/*Formatação do Icone de Login*/
+
+#escrita{
+    z-index: 1000;
+    float: right;
+    width: 10%;
+    height: 80px;
+    background: rgba(245,201,214,255);
+    text-align: center;
+    font-size: 30px;
+}
+#escrita a{
+    width: 120px;
+    height: 80px;
+    color: black;
+    text-decoration: none;
+}
+
+/*Formatação do PopUp de Login*/
+
+.popup{
+    z-index: 1000;
+    float: right;
+    width: 350px;
+    height: 340px;
+    border: solid 1px gray;
+    background-color: white;
+    display: none;
+    border-radius: 10%;
+    margin-right: 30px;
+}
+h6{
+    margin-top: 10px;
+    font-size: 10px;
+    text-decoration: none;
+}
+h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+/*Formatação da pagina de Login*/
+
+.form {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    padding: 0px 10px;
+    border: solid 1px #a0a0a0;
+    background-color: #ecf0f1;
+    font-size: 16px;
+}
+
+/*Formatação do PlaceHolder de Login*/
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+/*Formatação dos Icones da Pagina de Login*/
+
+.icon-modify {
+    color: #7f8c8d;
+    padding: 15px 15px;
+}
+
+/*Formatação do Botão de Login*/
+
+.btn1 {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 200px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.btn1-second {
+    background-color: #1296f3;
+    border: 1px solid #58af9b;
+    transition: background-color .5s;
+}
+.btn1-second:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #1296f3;
+}
+/*Formatação do botão de Cadastro*/
+
+.btn2 {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 300px;
+    align-self: center;
+    border: none;
+    margin-top: 20px;
+}
+.btn2-cadastro {
+    background-color: #1296f3;
+    border: 1px solid #58af9b;
+    transition: background-color .5s;
+}
+.btn2-cadastro:hover {
+    background-color: #fff;
+    border: 1px solid #58af9b;
+    color: #1296f3;
+}
