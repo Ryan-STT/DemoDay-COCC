@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/720267c82f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cabeçalho.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="popuplogin.css">
+    <link rel="stylesheet" href="rodape.css">
+    <title>Cadastro</title>
+ </head>
+ <body>
+
+<!--Cabeçalho-->
+     <header>
+         <nav>
+<!--LogoTipo-->
+            <a href="index.html" class="logoTipo"><img src="img/logotipo03.png" alt="LogoTipo"></a>
+<!--Icones do Menu-->
+            <div class="icon"></div>
+            <a href="#"><i class="fas fa-headphones"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fas fa-book"></i></a>
+            <a href="#"><i class="fas fa-pencil-ruler"></i></a>
+            <a href="#"><i class="fas fa-gamepad"></i></a>
+         </nav>
+
+<!--Botão de Login-->
+         <div id="escrita" class="escrita">
+            <a href="javascript: abrir();"><i class="fas fa-user-alt-slash"></i></a>
+         </div>
+     </header>
+     
+<!--PopUp Tela de Login-->
+        <div id="popup" class="popup">
+            <form class="form">
+                <label class="label-input" for="">
+                    <i class="far fa-envelope icon-modify"></i>
+                    <input type="email" placeholder="E-mail">
+                </label>
+                <label class="label-input" for="">
+                    <i class="fas fa-lock icon-modify"></i>
+                    <input type="password" placeholder="Senha">
+                </label>
+                <h6><a href="#">Esqueci minha senha</a></h6>
+                
+<!--Botões de Entrar e Cadastro Tela de Login-->
+                <button type="submit" class="btn1 btn1-second">Entrar</button>
+                <h3><i class="fas fa-user-plus"></i>     Não tem uma conta?</h3>
+                <button class="btn2 btn2-cadastro">Cadastrar</button>
+            </form>
+        </div>
+<!--Fim do PopUp Tela de Login-->
+
+<!--Footer-->
+    <footer class="footer">
+        <div class="container">
+        <div class="row">
+
+<!--Informações da empresa Linkado com o Wix da Página-->
+        <div class="footer-col">
+            <h4>Empresa</h4>
+                <ul>
+                    <li><a href="https://institutococc.wixsite.com/cooc">Sobre</a></li>
+                    <li><a href="https://institutococc.wixsite.com/cooc/equipe">Missão, Visão e Valores</a></li>
+                    <li><a href="https://institutococc.wixsite.com/cooc/noticias-e-eventos">Seja um Patrocinador</a></li>
+                    <li><a href="https://institutococc.wixsite.com/cooc/contato">Contato</a></li>
+                </ul>
+        </div>
+
+<!--Links para mudar o conteudo da Pagina-->
+        <div class="footer-col">
+            <h4>Conteúdo</h4>
+                <ul>
+                    <li><a href="#">Música</a></li>
+                    <li><a href="#">Vídeos</a></li>
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="#">Desenhe</a></li>
+                </ul>
+        </div>
+
+<!--Links para Suporte-->
+        <div class="footer-col">
+            <h4>Suporte</h4>
+                <ul>
+                    <li><a href="https://forms.gle/HZtxsZUF7cVQjajD7">Relatorio de Bugs</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                </ul>
+        </div>
+
+<!--Links para Redes Sociais-->
+        <div class="footer-col">
+            <h4>Redes Sociais</h4>
+        <div class="social-links">
+            <a href="https://www.instagram.com/instituto_cocc/"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/Ryan-STT/DemoDay-COCC"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+<!-- Fim do Footer-->
+
+<!--Banners Rotativos-->
+  
+
+<!--JavaScrip para Abrir e Fechar Tela de Login-->
+
+    <script type="text/javascript">
+        function abrir(){
+        document.getElementById("popup").style.display = "block";
+        }
+    </script>
+<!--Fim do JavaScrip para Abrir e Fechar Tela de Login-->
+
+<!--Arquivos Bootstrap-->
+    <script src="jquery.js"></script>
+    <script src="popper.js"></script>
+    <script src="bootstrap.js"></script>
+<!--Fim do Arquivos Bootstrap-->
+
+</body>
+</html>
