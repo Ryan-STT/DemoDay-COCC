@@ -1,0 +1,22 @@
+/*FORMATAÇÃO DO CABEÇALHO*/
+
+.bg-black{
+    background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 40px;
+    padding: 20px 90px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background: rgba(245,201,214,255);
+    color: black;
+}
+.navbar-brand{
+    text-align: center;
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
