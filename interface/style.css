@@ -1,0 +1,289 @@
+/*FONTE*/
+
+@font-face {
+    font-family: "letter";
+    src: url("VEZTRO.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*CABEÇALHO*/
+body{
+    background-color: black;
+}
+.bg-black{
+    background-color: black;
+}
+
+/*ICONE*/
+
+.efeito {
+    border: none;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-musicas {
+    transform-style: preserve-3d;
+}
+.efeito-musicas::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'MÚSICAS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-musicas:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-desenhos {
+    transform-style: preserve-3d;
+}
+.efeito-desenhos::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'DESENHOS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-desenhos:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-livros {
+    transform-style: preserve-3d;
+}
+.efeito-livros::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'LIVROS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-livros:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-desenhe {
+    transform-style: preserve-3d;
+}
+.efeito-desenhe::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'DESENHE';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-desenhe:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-ranking {
+    transform-style: preserve-3d;
+}
+.efeito-ranking::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'RANKING';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-ranking:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-botao {
+    background-color: black;
+}
+.efeito-botao:hover{
+    transform: skew(-10deg);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 40px;
+    padding: 20px 90px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background: rgba(245,201,214,255);
+    color: black;
+}
+
+/*LOGOTIPO*/
+
+.efeito-logo{
+    overflow: hidden
+  }
+  .efeito-logo img {
+    max-width:100%;
+      -moz-transition :(all 0.2s);
+      -webkit-transition-all: 0.2s;
+      transition: all 0.2s;
+  }
+  .efeito-logo:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.navbar-brand{
+    text-align: center;
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
+
+/*Formatação do Rodapé*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    bottom: 0px;
+    width: 100%;
+    background-color:black;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#1296f3;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/*MIDIA SOCIAL*/
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #1296f3;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: rgba(245,201,214,255);
+}
+
+/*BANNER*/
+
+.carousel{
+    margin-top: 100px;
+}
+
+/*DESTAQUES*/
+
+.main-title{
+    font-family: "letter";
+    font-size: 60px;
+    padding: 30px;
+}
+.pg{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn.btn-primary{
+    background-color: black;
+    border: solid 3px white;
+}
+.mg-fundo{
+    margin-top: 5px;
+}
+
+/*DESTAQUE MUSICAS*/
+
+.bg-musicas{
+    background-color: rgba(238,109,254,255);
+}
+
+/*DESTAQUE ANIMAÇÕES*/
+
+.bg-animacoes{
+    background-color: rgba(250,189,38,255);
+}
+
+/*DESTAQUE LIVROS*/
+
+.bg-livros{
+    background-color: rgba(11,249,252,255);
+}
