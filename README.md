@@ -30,4 +30,4 @@ COCC (Centro de Oportunidade Cultural à Criança) é um projeto de TCC, desenvo
 ## Observações
 
 - Marcamos nossas reuniões as terças feiras para discutir as etapas do trabalho e ajudar em problemas, entregamos semanalmente o que foi decidido as terças.
-- Site desenvolvido em Java.
+- Site desenvolvido em JavaScript.
