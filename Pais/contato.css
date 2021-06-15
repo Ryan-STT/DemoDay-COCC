@@ -4,7 +4,6 @@ body{
     background-size: 400% 300%;
     position: relative;
     animation: change 15s ease-in infinite;
-  
 }
 @keyframes change {
     0%{
@@ -44,9 +43,16 @@ body{
 .navbar-brand{
     margin-left: 40px;
 }
+.nav-link{
+    padding: 0 30px;
+    margin-right: 30px;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
 .navbar {
-    padding-top: .0rem;
-    padding-bottom: .0rem;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
 }
 
 h2{
@@ -91,7 +97,7 @@ h2{
     text-align: justify;
 }
 .mapa{
-   width: 100%;
+    width: 100%;
 }
 .contato{
     color: rgb(0, 0, 0);
@@ -121,15 +127,15 @@ h1{
     transition: 1s ease-in-out;
     background: blue;
     color: whitesmoke;
-  }
-  .btn span {
+}
+.btn span {
     color: white;
     font-size: 18px;
     font-weight: 100;
-  }
+}
 
 
-  /*Formatação do Rodapé*/
+/*Formatação do Rodapé*/
 
 .row{
     display: flex;
