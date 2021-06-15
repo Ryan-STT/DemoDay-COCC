@@ -28,32 +28,6 @@ body{
     padding-bottom: .0rem;
 }
 
-/*LOGOTIPO*/
-
-.efeito-logo{
-    overflow: hidden
-}
-.efeito-logo img {
-    max-width:120%;
-    -moz-transition :(all 0.2s);
-    -webkit-transition-all: 0.2s;
-    transition: all 0.2s;
-    transform: scale(0.9);
-}
-.efeito-logo:hover img{
-    -moz-transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-}
-.navbar-brand{
-    text-align: center;
-    margin-left: 20px;
-}
-.navbar {
-    padding-top: .0rem;
-    padding-bottom: .0rem;
-}
-
 /*ICONES - MENU*/
 
 .dropdown-toggle::after {
@@ -183,6 +157,34 @@ body{
 .efeito-ranking:hover{
     transform-origin:center bottom;
     transform:rotateX(-90deg) translateY(100%);
+}
+
+/*PESQUISA*/
+.form-control{
+    background-color: #deb887;
+    border: solid 2px black;
+    color: black;
+    font-weight: bolder;
+}
+.form-control:hover{
+    background-color: #deb887;
+    color: black;
+    font-weight: bolder;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #deb887 !important;
+    border: none !important;
+}
+.btn-outline-success{
+    border: none;
+    background: none !important;
+    color: #deb887;
+}
+.btn-outline-success:hover{
+    background: #deb887 !important;
+    color: black;
+    border: solid 2px black;
 }
 
 /* ESTANTE */
