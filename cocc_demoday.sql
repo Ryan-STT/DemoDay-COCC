@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 15-Maio-2021 às 06:44
+-- Tempo de geração: 15-Jun-2021 às 21:26
 -- Versão do servidor: 10.4.18-MariaDB
 -- versão do PHP: 7.4.16
 
@@ -40,18 +40,18 @@ CREATE TABLE `animacoes` (
 --
 
 INSERT INTO `animacoes` (`IDAnimacao`, `Categoria`, `Link`, `Episodio`, `Permissao`) VALUES
-(1, 'Turma do foclore', 'https://www.youtube.com/watch?v=oHHhl07EdWk', 'Lenda do Lobisomem', 0),
-(2, 'Turma do foclore', 'https://www.youtube.com/watch?v=lDuTbuu5FPk', 'Lenda da Mula sem cabeça', 0),
-(3, 'Turma do foclore', 'https://www.youtube.com/watch?v=1Oluc3iLFi4', 'Lenda do Boto cor-de-rosa', 0),
-(4, 'Turma do foclore', 'https://www.youtube.com/watch?v=6gErX5pNLbU', 'Lenda do Boitatá', 0),
-(5, 'Turma do foclore', 'https://www.youtube.com/watch?v=9eLv1r6Fgsc', 'Lenda da Cuca', 0),
-(6, 'Turma do foclore', 'https://www.youtube.com/watch?v=KWgCHEMg9uQ&t=13s', 'Coletânea da Turma do Folclores', 0),
-(7, 'Turma do foclore', 'https://www.youtube.com/watch?v=w56Z6FG8fp8', 'Lenda da Vitória Régia', 0),
-(8, 'Turma do foclore', 'https://www.youtube.com/watch?v=um1WHr1ejow', 'Lenda do Saci Pererê', 0),
-(9, 'Turma do foclore', 'https://www.youtube.com/watch?v=7UxylJ4XChI', 'Lenda da Caipora', 0),
-(10, 'Turma do foclore', 'https://youtu.be/gKpiIzfNQA8', 'Lenda do Curupira', 0),
-(11, 'Quintal da Cultura', 'https://youtu.be/Y7oWHIyUomk', 'Brincadeiras perigosas atraem raios e trovões', 0),
-(12, 'Quintal da Cultura', 'https://youtu.be/yev_tihK1rs', 'Outono e as Plantas', 0),
+(1, 'Turma do foclore', 'https://www.youtube.com/embed/oHHhl07EdWk', 'Lenda do Lobisomem', 0),
+(2, 'Turma do foclore', 'https://www.youtube.com/embed/lDuTbuu5FPk', 'Lenda da Mula sem cabeça', 0),
+(3, 'Turma do foclore', 'https://www.youtube.com/embed/1Oluc3iLFi4', 'Lenda do Boto cor-de-rosa', 0),
+(4, 'Turma do foclore', 'https://www.youtube.com/embed/6gErX5pNLbU', 'Lenda do Boitatá', 0),
+(5, 'Turma do foclore', 'https://www.youtube.com/embed/9eLv1r6Fgsc', 'Lenda da Cuca', 0),
+(6, 'Turma do foclore', 'https://www.youtube.com/embed/KWgCHEMg9uQ', 'Coletânea da Turma do Folclores', 0),
+(7, 'Turma do foclore', 'https://www.youtube.com/embed/w56Z6FG8fp8', 'Lenda da Vitória Régia', 0),
+(8, 'Turma do foclore', 'https://www.youtube.com/embed/um1WHr1ejow', 'Lenda do Saci Pererê', 0),
+(9, 'Turma do foclore', 'https://www.youtube.com/embed/7UxylJ4XChI', 'Lenda da Caipora', 0),
+(10, 'Turma do foclore', 'https://www.youtube.com/embed/gKpiIzfNQA8', 'Lenda do Curupira', 0),
+(11, 'Quintal da Cultura', 'https://www.youtube.com/embed/Y7oWHIyUomk', 'Brincadeiras perigosas atraem raios e trovões', 0),
+(12, 'Quintal da Cultura', 'https://www.youtube.com/embed/yev_tihK1rs', 'Outono e as Plantas', 0),
 (13, 'Quintal da Cultura', 'https://youtu.be/dkBEDZCMugI', 'Quebra cabeça espaço!', 0),
 (14, 'Quintal da Cultura', 'https://youtu.be/LxdWbtpVfbQ', 'Animação animal', 0),
 (15, 'Quintal da Cultura', 'https://www.youtube.com/watch?v=lx_OQQmRtxU', 'Quem canta seus males espanta!', 0),
@@ -98,7 +98,7 @@ INSERT INTO `animacoes` (`IDAnimacao`, `Categoria`, `Link`, `Episodio`, `Permiss
 (56, 'Chico Bento', 'https://www.youtube.com/watch?v=DTaRIu2l_xM&ab_channel=TurmadaM%C3%B4nica', 'A história do galo Ataliba', 0),
 (57, 'Chico Bento', 'https://youtu.be/BQCLlDgDmj0', 'Óia a onça!', 0),
 (58, 'Chico Bento', 'https://youtu.be/8IWk_SRos8E', 'Sonolento, sonolento!', 0),
-(59, 'Chico Bento', 'O sabe tudo', 'https://youtu.be/0QJV4mXGL6w', 0),
+(59, 'Chico Bento', 'https://youtu.be/0QJV4mXGL6w', 'O sabe tudo', 0),
 (60, 'Chico Bento', 'https://youtu.be/tC14s3b09Mw', 'A pescaria', 0);
 
 -- --------------------------------------------------------
