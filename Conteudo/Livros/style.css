@@ -195,11 +195,15 @@ body{
 .card-img-top{
     height: 30rem;
 }
+.card-img-top:hover{
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px 1px black;
+}
 .card-deck{
     padding: 20px;
 }
 .card{
-    box-shadow: 20px 15px 1px 1px;
+    box-shadow: 15px 15px 1px 1px;
 }
 *, ::after, ::before {
     box-sizing: none !important;
