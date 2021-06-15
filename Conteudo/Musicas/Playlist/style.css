@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(38, 103, 233);
+}
 .titulo{
     margin-bottom: 15px;
     border-bottom: solid 3px gray ;
