@@ -87,3 +87,7 @@ h1{
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+.modal-dialog {
+    max-width: 80%;
+    margin: 0rem auto;
+}
