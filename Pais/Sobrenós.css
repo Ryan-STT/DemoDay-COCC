@@ -1,0 +1,226 @@
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 15s ease-in infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 70%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 70%;
+    }
+  }
+  @font-face{
+    font-family: letter;
+    src: url("upheavtt.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(252, 250, 250);
+}
+
+.bg-black{
+    background-color: black;
+}
+/*LOGOTIPO*/
+
+.efeito-logo{
+    overflow: hidden
+}
+.efeito-logo img {
+    max-width:100%;
+    -moz-transition :(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+    transform: scale(0.9);
+}
+.efeito-logo:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
+
+.text{
+    font-size: 25px;
+    font-family: letter;
+}
+
+h2{
+    font-size: 30px;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px;
+}
+
+h1{
+    align-items: center;
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+    top: -15px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+/*DESTAQUE MEMBROS*/
+.font-weight-light{
+    font-family: letter;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.sobre{
+    background: url(img/Sem_Titulo-1.jpg);
+}
+.box{
+    background-image: url(img/Sem_Titulo-1.jpg);
+    box-shadow: 0 0 0 1px #e2e9ed;
+    padding: 60px 10px;
+    position: relative;
+    z-index: 0;
+    transition: 0.2s all;
+    border-radius: 10%;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.box .avtar{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto 20px;   
+}
+.box .box_content{
+    margin: 10px 0;
+}
+.box .box_content .title{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin: 0;
+}
+.box .box_content .post{
+    font-size: 15px;
+    line-height: 2.375rem;
+    color: #6f808a;
+}
+.box .icons{
+    margin: 0;
+    padding: 0;
+    list-style-type: nome;
+    opacity: 0;
+    transform: translate(10px);
+    transition: 0.2s all;
+}
+.box:hover .icons{
+    opacity: 1;
+    transform: translate(0px);
+
+}
+.box .icons li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.box .icons li a{
+    color: #515f65;
+}
+
+ /*Formatação do Rodapé*/
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    bottom: 0px;
+    width: 100%;
+    background-color:black;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#1296f3;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/*MIDIA SOCIAL*/
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #1296f3;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: rgba(245,201,214,255);
+}
+
+a{
+    font-weight: bold;
+}
+
