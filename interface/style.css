@@ -181,7 +181,7 @@ body{
     color: black;
 }
 
-/*MODAL*/
+/*MODAL Login*/
 
 .btn-modal{
     color: white;
@@ -220,6 +220,7 @@ body{
 .borda-modal{
     border: solid 3px white;
     box-shadow: 4px 4px 20px 9px black;
+    margin-top: 55px;
 }
 .btn.btn-second{
     font-size: 20px;
@@ -331,6 +332,11 @@ animation: bounce 1s linear;
     margin-bottom: 20px;
     font-size: x-large;
     letter-spacing: 1px;
+}
+.borda-modal-cadastro{
+    border: solid 3px white;
+    box-shadow: 4px 4px 20px 9px black;
+    margin-top: 90px;
 }
 
 
