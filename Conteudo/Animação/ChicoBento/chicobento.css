@@ -83,11 +83,33 @@ h1{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     box-shadow: inset 3px 3px 3px black;
-
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
 .modal-dialog {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0rem auto;
+}
+.modal-content{
+    background-color: black;
+    border-radius: 5%;
+}
+.modal-title{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 60px;
+    color: white;
+    font-family: "pixelmon";
+}
+.btn.btn-secondary{
+    background-color: white;
+    color: black;
+    width: 50rem;
+    height: 47px;
+    font-size: 30px;
+    font-family: "pixelmon";
+}
+.modale{
+    border-radius: 5%;
 }
