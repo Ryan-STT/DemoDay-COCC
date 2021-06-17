@@ -450,6 +450,9 @@ animation: bounce 1s linear;
     background-color: rgba(138,183,114,255);
     border: solid 4px black;
 }
+.ranking{
+    margin-bottom: 50px;
+}
 
 /*DESTAQUE CONTROLE PAIS*/
 
