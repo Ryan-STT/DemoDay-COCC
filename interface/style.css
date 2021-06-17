@@ -357,9 +357,6 @@ animation: bounce 1s linear;
     font-size: 30px;
     margin-bottom: 60px;
 }
-.card{
-    margin-right: 20px;
-}
 .borda{
     border-radius: 25%;
     border: solid 3px black;
@@ -379,14 +376,12 @@ animation: bounce 1s linear;
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
 }
-
-/*DESTAQUE MUSICAS*/
-
-.bg-musicas{
-    background-color: rgba(253,139,58,255);
-    border: solid 4px black;
+.caixa{
+    background-color: white;
+    border-radius: 10%;
+    margin: 13px;
 }
-.title-musica{
+.title{
     font-family: "pixelmon";
     font-size: 40px;
     letter-spacing: 2px;
@@ -394,17 +389,19 @@ animation: bounce 1s linear;
     margin-top: 35px;
     margin-bottom: 20px;
 }
-.descricao-musica{
+.descricao{
     font-size: 23px;
     font-family: "pixelmon";
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 35px;
 }
-.music{
-    background-color: white;
-    border-radius: 10%;
-    margin: 13px;
+
+/*DESTAQUE MUSICAS*/
+
+.bg-musicas{
+    background-color: rgba(253,139,58,255);
+    border: solid 4px black;
 }
 
 /*DESTAQUE ANIMAÇÕES*/
@@ -413,17 +410,11 @@ animation: bounce 1s linear;
     background-color: rgba(250,189,38,255);
     border: solid 4px black;
 }
-.title-animacao{
-    font-family: "pixelmon";
-    font-size: 50px;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    margin-top: 20px;
+.card-animacoes{
+    margin-top: 60px;
 }
-.descricao-animacao{
-    font-size: 20px;
-    font-family: "pixelmon";
-    letter-spacing: 1px;
+.classe{
+    margin: 30px;
 }
 
 /*DESTAQUE LIVROS*/
