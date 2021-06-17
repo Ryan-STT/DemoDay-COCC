@@ -460,7 +460,11 @@ animation: bounce 1s linear;
     background-color: #b19cd9;
     border: solid 4px black;
 }
-
+.imgpais{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+}
 /*Formatação do Rodapé*/
 
 .row{

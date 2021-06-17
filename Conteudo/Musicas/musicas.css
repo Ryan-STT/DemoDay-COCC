@@ -76,9 +76,6 @@ body {
     background: rgba(245,201,214,255);
     color: black;
 }
-.dropdown-toggle{
-    vertical-align: middle;
-}
 .efeito {
     border: none;
     padding: 20px;
