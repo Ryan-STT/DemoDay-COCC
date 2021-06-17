@@ -379,22 +379,24 @@ animation: bounce 1s linear;
 .caixa{
     background-color: white;
     border-radius: 10%;
-    margin: 13px;
 }
 .title{
     font-family: "pixelmon";
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    margin-top: 35px;
-    margin-bottom: 20px;
+    margin: 20px;
+    margin-top: 40px;
+    vertical-align: middle;
 }
 .descricao{
     font-size: 23px;
     font-family: "pixelmon";
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 35px;
+    margin: 30px;
+    margin-bottom: 20px;
+    vertical-align: middle;
 }
 
 /*DESTAQUE MUSICAS*/
@@ -403,18 +405,17 @@ animation: bounce 1s linear;
     background-color: rgba(253,139,58,255);
     border: solid 4px black;
 }
-
+.musica{
+    margin-top: 60px;
+}
 /*DESTAQUE ANIMAÇÕES*/
 
 .bg-animacoes{
     background-color: rgba(250,189,38,255);
     border: solid 4px black;
 }
-.card-animacoes{
-    margin-top: 60px;
-}
-.classe{
-    margin: 30px;
+.animacao{
+    margin-bottom: 40px;
 }
 
 /*DESTAQUE LIVROS*/
@@ -423,43 +424,24 @@ animation: bounce 1s linear;
     background-color: rgba(11,249,252,255);
     border: solid 4px black;
 }
-.title-livros{
-    font-family: "pixelmon";
-    font-size: 40px;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-    margin-top: 25px;
+.livro{
+    margin-top: 57px;
 }
-.descricao-livros{
-    font-size: 20px;
-    font-family: "pixelmon";
-    letter-spacing: 1px;
-}
-
 /*DESTAQUE SANDBOX*/
 
 .bg-sandbox{
     background-color: rgba(238,109,254,255);
     border: solid 4px black;
 }
-.borda-video{
-    border: solid 5px black;
-    box-shadow: 4px 4px 14px 0px black;
-    border-radius: 3%;
-}
 .embed-responsive-item{
-    margin-top: 70px;
+    width: 100%;
+    height: 600px;
+    border-radius: 2% !important;
+    border: solid 5px black;
+    margin-top: 40px;
 }
-.title-sandbox{
-    font-family: "pixelmon";
-    font-size: 27px;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
-}
-.descricao-sandbox{
-    font-size: 17px;
-    font-family: "pixelmon";
-    letter-spacing: 1px;
+.lousa{
+    margin-bottom: 50px;
 }
 
 /*DESTAQUE RANKING*/
