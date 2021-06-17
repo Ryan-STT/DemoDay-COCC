@@ -13,7 +13,6 @@
     font-style: normal;
 }
 
-
 /*CABEÇALHO*/
 
 body{
@@ -345,15 +344,11 @@ animation: bounce 1s linear;
 .main-title{
     font-family: "letter";
     font-size: 60px;
-    padding: 30px;
     text-align: center;
     padding: 50px;
 }
-.card{
-margin-bottom: 45px;
-}
 .pg{
-    margin-top: 20px;
+    margin-top: 90px;
     margin-bottom: 20px;
 }
 .btn.btn-primary{
@@ -390,15 +385,26 @@ margin-bottom: 45px;
 }
 .title-musica{
     font-family: "pixelmon";
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 2px;
-    margin-bottom: 15px;
+    text-align: center;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 .descricao-musica{
-    font-size: 20px;
+    font-size: 23px;
     font-family: "pixelmon";
     letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.music{
+    background-color: white;
+    border-radius: 10%;
+    margin: 13px;
+}
+.classemusica{
+    margin-left: 40px;
 }
 
 /*DESTAQUE ANIMAÇÕES*/
@@ -409,7 +415,7 @@ margin-bottom: 45px;
 }
 .title-animacao{
     font-family: "pixelmon";
-    font-size: 35px;
+    font-size: 50px;
     letter-spacing: 2px;
     margin-bottom: 15px;
     margin-top: 20px;
