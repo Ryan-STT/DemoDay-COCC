@@ -53,3 +53,6 @@ animation: bounce 1s linear;
         transform: translateY(-4px);
     }
 }
+.bem{
+    font-weight: bolder;
+}
