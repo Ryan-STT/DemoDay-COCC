@@ -1,0 +1,553 @@
+/*FONTE*/
+
+@font-face {
+    font-family: "letter";
+    src: url("VEZTRO.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "pixelmon";
+    src: url(upheavtt.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*CABEÇALHO*/
+
+body{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+
+/*LOGOTIPO*/
+
+.efeito-logo{
+    overflow: hidden
+}
+.efeito-logo img {
+    max-width:100%;
+    -moz-transition :(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+    transform: scale(0.9);
+}
+.efeito-logo:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.navbar-brand{
+    text-align: center;
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
+
+/*ICONE*/
+
+.efeito {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-musicas {
+    transform-style: preserve-3d;
+}
+.efeito-musicas::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'MÚSICAS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-musicas:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-desenhos {
+    transform-style: preserve-3d;
+}
+.efeito-desenhos::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'DESENHOS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-desenhos:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-livros {
+    transform-style: preserve-3d;
+}
+.efeito-livros::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'LIVROS';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-livros:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-desenhe {
+    transform-style: preserve-3d;
+}
+.efeito-desenhe::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'DESENHE';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-desenhe:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-ranking {
+    transform-style: preserve-3d;
+}
+.efeito-ranking::after {
+    top:-100%;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    background:black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    content: 'RANKING';
+    transform-origin: left bottom;
+    transform: rotateX(90deg);
+}
+.efeito-ranking:hover{
+    transform-origin:center bottom;
+    transform:rotateX(-90deg) translateY(100%);
+}
+.efeito-botao {
+    background-color: black;
+}
+.efeito-botao:hover{
+    transform: skew(-10deg);
+    transition: all 400ms ease;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-size: 40px;
+    padding: 20px 70px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background: rgba(245,201,214,255);
+    color: black;
+}
+
+/*MODAL Login*/
+
+.btn-modal{
+    color: white;
+    padding: 20px 70px;
+    font-size: 40px;
+    border: none !important;
+    letter-spacing: 1px;
+}
+.btn-modal:hover{
+    background: rgba(245,201,214,255);
+    color: black ;
+    border: none !important;
+}
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.modal-title{
+    font-family: "pixelmon";
+    font-size: 25px;
+}
+.form-group{
+    font-family: "pixelmon";
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.btn.btn-primary-modal{
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10%;
+    margin-left: 15px;
+    color: white;
+    font-family: "pixelmon";
+    letter-spacing: 1px;
+}
+.borda-modal{
+    border: solid 3px white;
+    box-shadow: 4px 4px 20px 9px black;
+    margin-top: 55px;
+}
+.btn.btn-second{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    box-shadow: 4px 4px 14px 0px black;
+    font-family: "pixelmon";
+    letter-spacing: 1px;
+    border: solid 3px white;
+}
+.criar{
+    margin-top: 7px;
+    font-family: "pixelmon";
+    letter-spacing: 1px;
+}
+.esqueci-senha{
+    font-size: 10px;
+    text-align: end;
+    margin-right: 10px;
+}
+.efeito-botao-botao {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-botao-botao:hover{
+animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    } 
+    40%{
+        transform: translateY(-20px)
+    }
+    70%{
+    transform: translateY(-15px);
+    } 
+    90%{
+        transform: translateY(-4px);
+    }
+}
+
+/*MODAL CADASTRO*/
+
+.fundo{
+    background-repeat: no-repeat;
+    background: linear-gradient(-45deg, #2596be, #89ceec, #fb9dd6, #fa89ec);
+    background-size: 400% 400%;
+    animation: change 9s ease infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.fundo-cadastro{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.form-control{
+    font-family: "pixelmon";
+    margin-bottom: 13px;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1px;
+}
+.form-control-suma{
+    font-family: "pixelmon";
+    margin-bottom: 13px;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1px;
+    display: none;
+}
+.form-check-label{
+    font-family: "pixelmon";
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1px;
+}
+.form-check-input{
+    font-family: "pixelmon";
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+.modal-title-cadastro{
+    font-family: "pixelmon";
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+.texto-cadastro{
+    font-family: "pixelmon";
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: black;
+    letter-spacing: 1px;
+}
+.custom-select{
+    font-family: "pixelmon";
+    margin-bottom: 20px;
+    font-size: x-large;
+    letter-spacing: 1px;
+}
+.borda-modal-cadastro{
+    border: solid 3px white;
+    box-shadow: 4px 4px 20px 9px black;
+    margin-top: 90px;
+}
+
+
+/*DESTAQUES*/
+
+.main-title{
+    font-family: "letter";
+    font-size: 60px;
+    text-align: center;
+    padding: 50px;
+}
+.pg{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+.btn.btn-primary{
+    background-color: black;
+    border: solid 3px white;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.borda{
+    border-radius: 25%;
+    border: solid 3px black;
+    box-shadow: 4px 4px 14px 0px black;
+}
+.efeito-card{
+        overflow: hidden
+}
+.efeito-card img {
+        max-width:100%;
+        -moz-transition:(all 0.2s);
+        -webkit-transition-all: 0.2s;
+        transition: all 0.2s;
+}
+.efeito-card:hover img{
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+}
+.caixa{
+    background-color: white;
+    border-radius: 10%;
+}
+.title{
+    font-family: "pixelmon";
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+    vertical-align: middle;
+}
+.descricao{
+    font-size: 23px;
+    font-family: "pixelmon";
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+/*DESTAQUE MUSICAS*/
+
+.bg-musicas{
+    background-color: rgba(253,139,58,255);
+    border: solid 4px black;
+}
+.musica{
+    margin-top: 60px;
+}
+/*DESTAQUE ANIMAÇÕES*/
+
+.bg-animacoes{
+    background-color: rgba(250,189,38,255);
+    border: solid 4px black;
+}
+.animacao{
+    margin-bottom: 40px;
+}
+
+/*DESTAQUE LIVROS*/
+
+.bg-livros{
+    background-color: rgba(11,249,252,255);
+    border: solid 4px black;
+}
+.livro{
+    margin-top: 57px;
+}
+/*DESTAQUE SANDBOX*/
+
+.bg-sandbox{
+    background-color: rgba(238,109,254,255);
+    border: solid 4px black;
+}
+.embed-responsive-item{
+    width: 100%;
+    height: 600px;
+    border-radius: 2% !important;
+    border: solid 5px black;
+    margin-top: 40px;
+}
+.lousa{
+    margin-bottom: 50px;
+}
+
+/*DESTAQUE RANKING*/
+
+.bg-ranking{
+    background-color: rgba(138,183,114,255);
+    border: solid 4px black;
+}
+.ranking{
+    margin-bottom: 50px;
+}
+.imgrank{
+    height: 600px;
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+/*DESTAQUE CONTROLE PAIS*/
+
+.bg-pais{
+    background-color: #b19cd9;
+    border: solid 4px black;
+}
+.imgpais{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
+}
+/*Formatação do Rodapé*/
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    bottom: 0px;
+    width: 100%;
+    background-color:black;
+    padding: 20px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#1296f3;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+/*MIDIA SOCIAL*/
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #1296f3;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: rgba(245,201,214,255);
+}

@@ -1,0 +1,58 @@
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }   
+}
+.row{
+    margin-top: 10%;
+}
+.text-center1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin: 15px;
+    font-weight: bolder;
+    border: solid 2px black;
+    border-radius: 3%;
+}
+.efeito-botao-botao {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: none !important;
+    background: none !important;
+}
+.efeito-botao-botao:hover{
+animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    } 
+    40%{
+        transform: translateY(-20px)
+    }
+    70%{
+    transform: translateY(-15px);
+    } 
+    90%{
+        transform: translateY(-4px);
+    }
+}
+.bem{
+    font-weight: bolder;
+}
