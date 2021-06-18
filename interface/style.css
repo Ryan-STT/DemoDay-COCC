@@ -461,6 +461,11 @@ animation: bounce 1s linear;
 .ranking{
     margin-bottom: 50px;
 }
+.imgrank{
+    height: 600px;
+    max-width: 100%;
+    border-radius: 10%;
+}
 
 /*DESTAQUE CONTROLE PAIS*/
 
