@@ -1,8 +1,13 @@
 /*FONTE*/
-
 @font-face {
     font-family: "letter";
     src: url("VEZTRO.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "pixelmon";
+    src: url(upheavtt.ttf) format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -189,9 +194,10 @@ body {
     transform-origin:center bottom;
     transform:rotateX(-90deg) translateY(100%);
 }
-
 /*CARD*/ 
-
+.card{
+    margin-bottom: 30px;
+}
 .efeito-card{
     overflow: hidden
 }
@@ -215,14 +221,16 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
+    font-family: "pixelmon";
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: 1px;
 }
 .card-text{
     text-align: center;
+    font-weight: bolder;
+    letter-spacing: 1px;
 }
-.btn-primary{
-    margin-top: 10px;
-}
-
 /*EFEITO BOTÃO CARD*/
 
 .efeito {

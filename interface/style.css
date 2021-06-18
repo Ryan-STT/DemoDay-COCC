@@ -296,6 +296,14 @@ animation: bounce 1s linear;
     color: black;
     letter-spacing: 1px;
 }
+.form-control-suma{
+    font-family: "pixelmon";
+    margin-bottom: 13px;
+    font-size: 25px;
+    color: black;
+    letter-spacing: 1px;
+    display: none;
+}
 .form-check-label{
     font-family: "pixelmon";
     margin-top: 35px;

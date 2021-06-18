@@ -1,13 +1,6 @@
 /*FONTE*/
 
 @font-face {
-    font-family: "letter";
-    src: url("VEZTRO.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: "pixelmon";
     src: url(upheavtt.ttf) format("opentype");
     font-weight: normal;
@@ -37,22 +30,29 @@ body{
 .img{
     border-radius: 250px;
     border: solid 2px salmon;
-    width: 350px;
-    padding: 15px;
+    width: 300px;
     box-shadow: -1px 2px 20px 0px black;
 }
 p{
     text-align: center;
     font-family: "pixelmon";
+    font-size: 25px;
 }
 h1,h2{
     text-align: center;
     font-family: "pixelmon";
 }
-h3{
+.op{
     text-align: center;
-    padding: 15px;
     font-family: "pixelmon";
+    font-size: 58px;
+}
+th{
+    border-right: solid 5px black;
+    text-align: center;
+}
+td{
+    text-align: center;
 }
 .borda{
     border: solid 5px black;
@@ -61,16 +61,10 @@ h3{
     border: solid 5px black;
     margin-top: -12px;
     align-items:center;
-    width: 600px;
-    margin: -12px auto;
 }
 a{
     color: black;
 }
 a:hover{
     color: coral;
-}
-.container-fluid{
-    margin-top: 130px;
-    margin-bottom: 30px;
 }
