@@ -351,9 +351,10 @@ animation: bounce 1s linear;
 
 .main-title{
     font-family: "letter";
-    font-size: 60px;
+    font-size: 55px;
     text-align: center;
-    padding: 50px;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
 .pg{
     margin-top: 90px;
@@ -494,7 +495,7 @@ ul{
     padding: 20px 0;
 }
 .footer-col{
-    width: 25%;
+width: 100%;
     padding: 0 15px;
 }
 .footer-col h4{

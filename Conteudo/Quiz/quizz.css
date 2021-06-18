@@ -83,6 +83,7 @@ h1{
 .imagem{
     position: absolute;
     width: 400px;
+    max-width: 100%;
     left: 35%;
     top: 50%;
 }
@@ -93,6 +94,7 @@ h1{
     position: absolute;
     top: 150px;
     width: 400px;
+    max-width: 100%;
     height: 100px;
     left: -200px;
     font-size: 25px;
@@ -115,8 +117,9 @@ h1{
 .info_box{
     position: absolute;
     top: 300px;
-    left: 50%;
-    width: 540px;
+    margin-left: 5%;
+    margin-right: 5%;    
+    width: 100%;
     background: white;
     border-radius: 5px;
     opacity: 0;
@@ -162,6 +165,7 @@ h1{
     margin: 0 5px;
     height: 40px;
     width: 120px;
+    max-width: 100%;
     outline: none;
     border: 1px solid rgb(77, 77, 243);
     background: linear-gradient(45deg, #1e90ff, #6bacec, #1e90ff);
@@ -204,6 +208,7 @@ h1{
     top: 300px;
     left: 50%;
     width: 550px;
+    max-width: 100%;
     background: white;
     border-radius: 5px;
     opacity: 0;
@@ -233,6 +238,7 @@ h1{
     align-items: center;
     justify-content: space-between;
     width: 175px;
+    max-width: 100%;
     height: 45px;
     background: white;
     border: 1px solid #5e5f5f;
@@ -251,6 +257,7 @@ h1{
     background: #1e90ff;
     height: 30px;
     width: 45px;
+    max-width: 100%;
     color: white;
     text-align: center;
     line-height: 30px;
@@ -303,6 +310,7 @@ section .option_list .option:hover{
 .option_list .option .icon{
     height: 26px;
     width: 26px;
+    max-width: 100%;
     border: 2px solid transparent;
     border-radius: 50%;
     text-align: center;
@@ -359,6 +367,7 @@ footer .next_btn{
     display: none;
     height: 40px;
     width: 150px;
+    max-width: 100%;
     padding: 0 13px;
     font-size: 18px;
     font-weight: 400;
@@ -389,6 +398,7 @@ button.next_btn{
     left: 50%;
     background: white;
     width: 450px;
+    max-width: 100%;
     padding: 2px 25px;
     border-radius: 5px;
     display: flex;
@@ -456,6 +466,7 @@ button.next_btn{
         font-size: 70px;
         margin-left: 95px;
         width: 350px;
+        max-width: 100%;
         top: 5px;
         position: absolute;
     }
@@ -465,6 +476,7 @@ button.next_btn{
         left: 78px;
         top: 320px;
         width: 380px;
+        max-width: 100%;
     }
     .start_btn button{
         position: absolute;
@@ -477,21 +489,25 @@ button.next_btn{
         left: 260px;
         top: 320px;
         width: 420px;
+        max-width: 100%;
     }
     .quiz_box{
         position: absolute;
         left: 260px;
         top:320px;
         width: 420px;
+        max-width: 100%;
     }
     footer .next_btn{
         width: 100px;
+        max-width: 100%;
     }
     .result_box{
         position: absolute;
         left: 255px;
         top: 330px;
         width: 350px;
+        max-width: 100%;
     }
     .score_center1{
         margin-left: 90px !important;
@@ -509,6 +525,7 @@ button.next_btn{
         font-size: 70px;
         left: -30px;
         width: 350px;
+        max-width: 100%;
         top: 60px;
         position: absolute;
     }
@@ -518,6 +535,7 @@ button.next_btn{
         left: 57px;
         top: 380px;
         width: 380px;
+        max-width: 100%;
     }
     .start_btn button{
         position: absolute;
@@ -530,21 +548,25 @@ button.next_btn{
         left: 239px;
         top: 400px;
         width: 420px;
+        max-width: 100%;
     }
     .quiz_box{
         position: absolute;
         left: 239px;
         top:400px;
         width: 420px;
+        max-width: 100%;
     }
     footer .next_btn{
         width: 100px;
+        max-width: 100%;
     }
     .result_box{
         position: absolute;
         left: 239px;
         top: 390px;
         width: 350px;
+        max-width: 100%;
     }
     .score_center1{
         margin-left: 90px !important;
@@ -563,6 +585,7 @@ button.next_btn{
         font-size: 70px;
         margin-left: 85px;
         width: 350px;
+        max-width: 100%;
         top: 80px;
         position: absolute;
     }
@@ -572,6 +595,7 @@ button.next_btn{
         left: 45px;
         top: 410px;
         width: 380px;
+        max-width: 100%;
     }
     .start_btn button{
         position: absolute;
@@ -584,20 +608,24 @@ button.next_btn{
         left: 239px;
         top: 430px;
         width: 443px;
+        max-width: 100%;
     }
     .quiz_box{
         position: absolute;
         left: 239px;
         top:430px;
         width: 443px;
+        max-width: 100%;
     }
     footer .next_btn{
         width: 100px;
+        max-width: 100%;
     }
     .result_box{
         position: absolute;
         left: 239px;
         top: 430px;
+        max-width: 100%;
         width: 390px;
     }
     .score_center1{
@@ -615,6 +643,7 @@ button.next_btn{
         font-size: 70px;
         margin-left: 90px;
         width: 350px;
+        max-width: 100%;
         top: 100px;
         position: absolute;
     }
@@ -624,6 +653,7 @@ button.next_btn{
         left: 50px;
         top: 450px;
         width: 380px;
+        max-width: 100%;
     }
     .start_btn button{
         position: absolute;
@@ -636,21 +666,25 @@ button.next_btn{
         left: 235px;
         top: 475px;
         width: 443px;
+        max-width: 100%;
     }
     .quiz_box{
         position: absolute;
         left: 240px;
         top:475px;
+        max-width: 100%;
         width: 445px;
     }
     footer .next_btn{
         width: 100px;
+        max-width: 100%;
     }
     .result_box{
         position: absolute;
         left: 235px;
         top: 450px;
         width: 390px;
+        max-width: 100%;
     }
     .score_center1{
         margin-left: 110px !important;
