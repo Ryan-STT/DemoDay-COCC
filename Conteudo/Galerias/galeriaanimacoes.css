@@ -9,7 +9,7 @@
 
 /*BANNER*/
 
-body {
+.turmadofolclore {
     background-repeat: no-repeat;
     background: linear-gradient(45deg,#f8dc29d1, #44871bd6, #f8dc29d1);
     background-size: 400% 300%;
@@ -27,7 +27,78 @@ body {
             background-position: 0 50%;
         }
 }
-
+.turmadamonica {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #00caf8, #b7dae2, #fe0000);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.quintaldacultura {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#4bb95ae7, #d5dcee, #f78801);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.peixonauta {
+    background-image: url(img/Banner_Pixonauta_1.0.jpg);
+}
+.deondevem {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#ffa500, #ff5940e4, #f8d45f);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.chicobento {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #ffff00, #ffd700, hsl(41, 100%, 50%), #ffd900);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
 h1{
     text-align: center;
     font-family: "letter";
