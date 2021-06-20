@@ -393,9 +393,7 @@ animation: bounce 1s linear;
     font-size: 30px;
     letter-spacing: 2px;
     text-align: center;
-    margin: 20px;
     margin-top: 40px;
-    vertical-align: middle;
 }
 .descricao{
     font-size: 23px;
@@ -403,8 +401,6 @@ animation: bounce 1s linear;
     letter-spacing: 1px;
     text-align: center;
     margin: 30px;
-    margin-bottom: 20px;
-    vertical-align: middle;
 }
 
 /*DESTAQUE MUSICAS*/
@@ -462,8 +458,6 @@ animation: bounce 1s linear;
     margin-bottom: 50px;
 }
 .imgrank{
-    height: 600px;
-    max-width: 100%;
     border-radius: 10%;
 }
 
@@ -486,6 +480,7 @@ animation: bounce 1s linear;
 }
 ul{
     list-style: none;
+    padding: 0px !important;
 }
 .footer{
     bottom: 0px;
@@ -494,7 +489,7 @@ ul{
     padding: 20px 0;
 }
 .footer-col{
-    width: 25%;
+    max-width: 100%;
     padding: 0 15px;
 }
 .footer-col h4{
@@ -550,4 +545,67 @@ ul{
 .footer-col .social-links a:hover{
     color: #24262b;
     background-color: rgba(245,201,214,255);
+}
+@media (max-width: 425px){
+    .ps{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+    .main-title{
+        font-family: "letter";
+        font-size: 45px;
+        text-align: center;
+        padding: 50px;
+    }
+    .carousel-inner{
+        display: none !important;
+    }
+    .navbar-brand{
+        width: 100px !important;
+        padding: none !important;
+        margin-left: 18px !important;
+    }
+    .navbar-toggler{
+        width: 70px !important;
+        height: 40px !important;
+        padding: none !important;
+    }
+    .login{
+    width: 100px;
+    height: 100px;
+    padding: 0px !important;
+    }
+    svg{
+        height: 60px;
+    }
+    .footer{
+        text-align: center;
+    }
+    h4{
+    border-bottom: solid 2px #1296f3;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    }
+    .footer-col h4::before{
+        display: none !important;
+    }
+    .footer-col{
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 1024px){
+    .login{
+        padding: 0 30px !important;
+    }
+    .nav-link{
+        padding: 20px 50px !important;
+    }
+    .lap{
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
 }
