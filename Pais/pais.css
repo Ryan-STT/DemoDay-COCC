@@ -1,0 +1,313 @@
+/*FONTE*/
+@font-face{
+    font-family: letter;
+    src: url("Happy\ Lucky\ Free.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 15s ease-in infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 70%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 70%;
+    }
+}
+
+/*LOGOTIPO*/
+
+.efeito-logo{
+    overflow: hidden
+}
+.efeito-logo img {
+    max-width:100%;
+    -moz-transition :(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+    transform: scale(0.9);
+}
+.efeito-logo:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
+h2{
+    font-size: 30px;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px;
+}
+h1{
+    align-items: center;
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+    top: -15px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.bg-body{
+    background-color: rgb(252, 250, 250);
+}
+.bg-black{
+    background-color: black;
+}
+
+/*SOBRE*/
+
+/*SOBRE OS MEMBROS*/
+
+.text{
+    font-family: letter;
+    font-size: 40px;
+    padding: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+/*CARDS MEMBROS*/
+
+.box{
+    background-image: url(img/fundo.jpg);
+    box-shadow: 0 0 0 1px #e2e9ed;
+    padding: 60px 10px;
+    position: relative;
+    z-index: 0;
+    transition: 0.2s all;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.box .avtar{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto 20px;   
+}
+.box .box_content{
+    margin: 10px 0;
+}
+.box .box_content .title{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin: 0;
+}
+.box .box_content .post{
+    font-size: 15px;
+    line-height: 2.375rem;
+    color: #6f808a;
+}
+.box .icons{
+    margin: 0;
+    padding: 0;
+    list-style-type: nome;
+    opacity: 0;
+    transform: translate(10px);
+    transition: 0.2s all;
+}
+.box:hover .icons{
+    opacity: 1;
+    transform: translate(0px);
+}
+.box .icons li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.box .icons li a{
+    color: #515f65;
+}
+
+@media (max-width: 768px) {
+    .box{
+        padding: 0px !important;
+    }
+    .avtar{
+        width: 200px !important;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+/*PROPOSITO*/
+
+.Bordermissoes{
+    border-bottom: solid 10px rgba(119, 184, 219, 1);
+    text-align: center;
+    font-weight: bold;
+    font-family: "letter";
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.Bordervisao{
+    border-bottom: solid 10px rgba(255, 130, 130, 1);
+    font-size: 28px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "letter";
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.Bordervalores{
+    border-bottom: solid 10px rgb(236, 240, 19);
+    text-align: center;
+    font-weight: bold;
+    font-family: "letter";
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+p{
+    text-align: start;
+    font-size: 20px;
+    margin: 20px;
+}
+
+/*PATROCÍNIO*/
+
+.texto1{
+    font-size: 50px;
+    text-align: justify;
+    font-family: "letter";
+    margin: 20px;
+    letter-spacing: 2px;
+}
+.bt{
+    width: 260px;
+    height: 80px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000000; 
+    font-weight: bolder;
+    margin-left: 498px;
+    display: block;
+    margin: auto;
+    font-family: "letter";
+    letter-spacing: 1px;
+}
+.bt:hover{
+    color:whitesmoke;
+    background-color: #c382aa;
+    transition: 1.7s;
+    transform: scale(1.1);
+    font-size: 30px;
+}
+@media (max-width: 425px) {
+    .texto1{
+        text-align: center !important;
+        font-size: 50px !important;
+        font-family: none !important;
+    }
+}
+
+/*CONTATO*/
+
+.titulo{
+    border-bottom: solid 5px blue;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: "letter";
+    text-align: center;
+}
+.cx1{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx2{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000; 
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx3{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx4{
+    text-align: start;
+    margin-top: 15px;
+    width: 446px;
+    height: 110px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+::placeholder{
+    font-weight: bolder;
+    text-align: justify;
+}
+.mapa{
+    width: 100%;
+}
+.contato{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.btn{
+    float : right;
+    margin-right: 100px;
+    margin-top: 65px;
+    width: 104px;
+    background-color: #ffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.8s;
+    font-size: 15px;
+    font-family: "letter";
+    letter-spacing: 2px;
+}
+.btn:hover {
+    transition: 1s ease-in-out;
+    background: blue;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}

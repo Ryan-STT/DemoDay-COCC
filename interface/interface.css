@@ -394,6 +394,7 @@ animation: bounce 1s linear;
     letter-spacing: 2px;
     text-align: center;
     margin-top: 40px;
+    font-weight: bolder;
 }
 .descricao{
     font-size: 23px;
@@ -607,5 +608,22 @@ ul{
     .lap{
         flex: 0 0 auto !important;
         width: 100% !important;
+    }
+}
+@media (max-width:768px) {
+    .descricao{
+        margin: 0px !important;
+        margin-bottom: 10px !important;
+        font-size: 18px !important;
+    }
+    .title{
+        margin-top: 10px !important;
+        font-size: 27px;
+        font-weight: bolder;
+        margin-bottom: 18px;
+    }
+    .svg{
+        width: 45px !important;
+        height: 45px !important;
     }
 }
