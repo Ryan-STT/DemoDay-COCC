@@ -1,0 +1,231 @@
+/*FONTE*/
+
+@font-face {
+    font-family: "pixelmon";
+    src: url(VEZTRO.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*BANNER*/
+
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#f8dc29d1, #44871bd6, #f8dc29d1);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+
+@font-face {
+    font-family: "letter";
+    src: url("VEZTRO.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*BANNER*/
+
+.turmadofolclore {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#f8dc29d1, #44871bd6, #f8dc29d1);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.turmadamonica {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #00caf8, #b7dae2, #fe0000);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.quintaldacultura {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#4bb95ae7, #d5dcee, #f78801);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.peixonauta {
+    background-image: url(img/Banner_Pixonauta_1.0.jpg);
+}
+.deondevem {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg,#ffa500, #ff5940e4, #f8d45f);    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+.chicobento {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #ffff00, #ffd700, hsl(41, 100%, 50%), #ffd900);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 10s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }
+}
+
+h1{
+    text-align: center;
+    font-family: "pixelmon";
+    font-size: 60px;
+}
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    margin-top: 20px;
+    border: solid 3px black;
+    box-shadow: 2px 2px 20px 1px black;
+}
+
+.imagem {
+    width: 200px;
+    height: 100px;
+    border: solid 2px black;
+    border-radius: 8%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    overflow: hidden
+    -moz-transition (all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+}
+
+.imagem:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: inset 3px 3px 3px black;
+}
+
+.imagem1 {
+    width: 250px;
+    height: 200px;
+    border: solid 2px black;
+    border-radius: 8%;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+    overflow: hidden
+    -moz-transition (all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+}
+
+.imagem1:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: inset 3px 3px 3px black;
+
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+@media (min-width: 570px){
+.col-categoria {
+    flex: 1 0 0%;
+    width: 40%!important;
+}
+
+}
+@media (min-width: 1001px){
+    .col-categoria {
+        flex: 1 0 0%;
+        width: 20%!important;
+    }
+    .imagem {
+        width: 200px!important;
+        height: 100px!important;
+         max-width: 100%;
+        max-height: 100%;
+        border: solid 2px black;
+        border-radius: 8%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 500px){
+    .col-categoria {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    .imagem {
+        width: 175px;
+        height: 120px;
+         max-width: 100%;
+        max-height: 100%;
+        border: solid 2px black;
+        border-radius: 8%;
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+}
