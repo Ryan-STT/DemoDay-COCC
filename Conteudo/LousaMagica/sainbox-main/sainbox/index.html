@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/720267c82f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>Lousa Mágica</title>
+</head>
+
+<body>
+    <div class="container-fluid bg-colorido">
+        <div class="app">
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="title text-center">Lousa Mágica</h1>
+                    </div>
+                    <div class="col-md-8">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand"> 
+                                <div class="type">
+                                <input  type="radio" name="pen-type" id="pen-pencil" checked>
+                                <label for="pen-pencil">
+                                    <i class="fa fa-pencil "></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-brush">
+                                <label for="pen-brush">
+                                    <i class="fa fa-brush"></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-eraser">
+                                <label for="pen-eraser">
+                                    <i class="fa fa-eraser"></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-font">
+                                <label for="pen-font">
+                                    <i class="fa fa-font"></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-circle">
+                                <label for="pen-circle">
+                                    <i class="far fa-circle"></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-square">
+                                <label for="pen-square">
+                                    <i class="far fa-square"></i>
+                                </label>
+                                <input type="radio" name="pen-type" id="pen-line">
+                                <label for="pen-line">
+                                    <i class="fas fa-grip-lines"></i>
+                                </label> 
+                            </a>
+                        </nav>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="color">
+                            <label for="pen-color">Escolha sua cor:</label>
+                            <span><input type="color" class="pen-color" id="pen-color" value="#000"></span>
+                    </div>
+                    </div>
+                <div id="canvas-wrapper"></div>
+                    <div class="size">
+                        <label for="pen-size">Tamanho</label>
+                        <input type="range" id="pen-size" min="1" max="50">
+                    </div>
+                    <div class="actions mb-4">
+                        <button id="reset-canvas">Apagar tudo</button>
+                        <button id="save-canvas">Salvar no Computador</button>
+                </div>      
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
+</body>
+</html>
