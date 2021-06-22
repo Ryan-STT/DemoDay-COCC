@@ -227,3 +227,36 @@ h1{
         margin-top: 30px;
     }
 }
+.modal-content{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 15s ease infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }   
+}
+.btn.btn-secondary{
+    width: 200px !important;
+}
+.embed-responsive-item{
+    width: 400px !important;
+    height: 300px !important;
+}
+.modal-title{
+    font-family: "pixelmon";
+    font-size: 40px;
+}
+.btn.btn-secondary:hover{
+    font-weight: bolder;
+    font-size: 20px;
+}
