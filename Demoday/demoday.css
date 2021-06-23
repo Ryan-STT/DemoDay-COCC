@@ -72,3 +72,22 @@ button:focus {
 .modal-body{
     font-size: 20px;
 }
+@media (max-width: 425px) {
+    .bemm{
+        font-size: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .bemm{
+        font-size: 15px;
+    }
+    .bem{
+        font-size: 25px;
+    }
+}
+@media (max-width: 768px) {
+.bemmmm{
+    flex: 0 0 50%;
+    max-width: 50%;
+}   
+}
