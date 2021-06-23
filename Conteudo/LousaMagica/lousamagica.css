@@ -1,4 +1,11 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+@font-face{
+  font-family: "letter";
+  src: url("DiscotecaRounded_Free_For_Personal_Use.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 .bg-colorido{
     background-repeat: no-repeat;
     background: linear-gradient(45deg, #1e90ff, #fa89ec);
@@ -16,6 +23,11 @@
     100%{
         background-position: 0 70%;
     }
+}
+.title{
+  font-family: "letter";
+  font-size: 60px;
+  margin-top: 20px;
 }
 .type {
 
@@ -74,8 +86,6 @@
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
-    position: fixed;
-
 }
 .navbar{
   background: none;
@@ -109,4 +119,24 @@ input[type=color]::-webkit-color-swatch-wrapper {
     border: none;
     border-radius: 50%;
     padding: 0;
+}
+.efeito-card{
+  overflow: hidden
+}
+.efeito-card img {
+  max-width:100%;
+  -moz-transition:(all 0.2s);
+  -webkit-transition-all: 0.2s;
+  transition: all 0.2s;
+}
+.efeito-card:hover img{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar-brand{
+    position: fixed;
+  }
 }
