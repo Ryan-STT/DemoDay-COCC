@@ -304,7 +304,9 @@ animation: bounce 1s linear;
         margin: auto !important;
         width: 450px;
     }
-
+    .deOnde{
+        margin-bottom: 40px !important;
+    }
 }
 @media (max-width: 1024px) {
     .monica{
