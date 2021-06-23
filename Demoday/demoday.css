@@ -56,3 +56,19 @@ animation: bounce 1s linear;
 .bem{
     font-weight: bolder;
 }
+button{
+    cursor:auto !important;
+}
+.active:hover{
+    font-size: 25px;
+}
+button:focus {
+    outline: none !important;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+.modal-title{
+    font-size: 30px;
+}
+.modal-body{
+    font-size: 20px;
+}
