@@ -56,6 +56,9 @@ animation: bounce 1s linear;
 .bem{
     font-weight: bolder;
 }
+.pe{
+    font-weight: bolder;
+}
 button{
     cursor:auto !important;
 }
@@ -68,6 +71,7 @@ button:focus {
 }
 .modal-title{
     font-size: 30px;
+    font-weight: bolder;
 }
 .modal-body{
     font-size: 20px;
