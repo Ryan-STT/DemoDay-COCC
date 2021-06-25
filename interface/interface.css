@@ -438,15 +438,13 @@ animation: bounce 1s linear;
     background-color: rgba(238,109,254,255);
     border: solid 4px black;
 }
-.embed-responsive-item{
-    width: 100%;
-    height: 600px;
-    border-radius: 2% !important;
-    border: solid 5px black;
-    margin-top: 40px;
-}
 .lousa{
     margin-bottom: 50px;
+}
+.embed-responsive-item{
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5%;
 }
 
 /*DESTAQUE RANKING*/
