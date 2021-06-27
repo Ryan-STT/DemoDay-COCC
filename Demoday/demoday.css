@@ -89,9 +89,3 @@ button:focus {
         font-size: 25px;
     }
 }
-@media (max-width: 768px) {
-.bemmmm{
-    flex: 0 0 50%;
-    max-width: 50%;
-}   
-}

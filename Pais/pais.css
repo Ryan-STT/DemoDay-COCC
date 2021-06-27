@@ -153,6 +153,12 @@ h1{
     .text{
         font-size: 20px;
     }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
 }
 
 /*PROPOSITO*/
