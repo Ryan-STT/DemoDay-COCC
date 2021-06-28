@@ -36,7 +36,7 @@ body{
     font-size: 60px;
 }
 .sub{
-    text-align: start;
+    text-align: center;
     margin-top: 80px;
     font-family: "letter";
     letter-spacing: 5px;
@@ -132,4 +132,27 @@ td{
 }
 .btn.btn-secondary{
     width: 200px !important;
+}
+@media (max-width: 425px){
+    .titulo{
+        font-size: 35px;
+    }
+    td, th{
+        font-size: 17px;
+    }
+    .icone{
+        display: none !important;
+    }
+    .remove{
+        display: none !important;
+    }
+    .icone2{
+        height: 70px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sub{
+        text-align: start !important;
+    }
 }

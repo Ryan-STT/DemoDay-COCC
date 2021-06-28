@@ -292,8 +292,7 @@ p{
     font-weight: bold;
 }
 .btn{
-    float : right;
-    margin-right: 100px;
+    
     margin-top: 65px;
     width: 104px;
     background-color: #ffff;
@@ -316,4 +315,10 @@ p{
     color: white;
     font-size: 18px;
     font-weight: 100;
+}
+@media (min-width: 425px) {
+    .btn{
+        float : right;
+        margin-right: 100px;
+    }
 }

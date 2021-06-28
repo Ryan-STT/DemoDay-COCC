@@ -27,8 +27,6 @@ body {
 
 /* FUNDO*/
 
-
-
 .main-title{
     font-family: "pixelmon";
     font-size: 60px;
@@ -38,38 +36,29 @@ body {
 
 /*INFORMAÇOES USUARIO*/
 
-.infor{
-    border: solid 4px white;
-}
-
-.informacoes{
-    font-family: "pixelmon";
+.box{
+    max-width: 100%;
+    height: 20%;
     color: white;
-    padding: 10px;
+    border: solid 5px white;
+    margin-bottom: 20px;
 }
-.informacoes-pts{
-    font-family: "pixelmon";
-    color: white;
-    padding: 10px;
-    text-align: end;
+.pts{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
 }
 
 /*TABELA*/
 
 .table{
-    z-index: 2;
-    position: relative;
     border: solid 3px  white;
     font-family: "pixelmon";
     letter-spacing: 2px;
 }
 .inicio{
     border: solid 4x white;
-}
-
-.margin-tabela{
-    margin-top: 10px;
-    margin-bottom: 60px;
 }
 
 /*CABEÇALHO TABELA*/
@@ -86,4 +75,19 @@ td{
     text-align: center;
     color: white;
     font-size: 30px;
+}
+@media (max-width: 425px) {
+    th, td{
+        font-size: 10px !important;
+    }
+    .pts{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .main-title{
+        text-align: center;
+    }
 }
