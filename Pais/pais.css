@@ -1,10 +1,6 @@
 /*FONTE*/
-@font-face{
-    font-family: letter;
-    src: url("Happy\ Lucky\ Free.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
 body{
     background-repeat: no-repeat;
     background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
@@ -76,10 +72,10 @@ h1{
 /*SOBRE OS MEMBROS*/
 
 .text{
-    font-family: letter;
-    font-size: 40px;
-    padding: 50px;
-    text-align: justify;
+    font-family: 'Jomhuria', cursive;
+    font-size: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
     letter-spacing: 1px;
 }
 
@@ -151,7 +147,9 @@ h1{
         width: 200px !important;
     }
     .text{
-        font-size: 20px;
+        font-size: 30px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
     }
     .navbar-collapse{
         text-align: center;
@@ -166,76 +164,79 @@ h1{
 .Bordermissoes{
     border-bottom: solid 10px rgba(119, 184, 219, 1);
     text-align: center;
-    font-weight: bold;
-    font-family: "letter";
+    font-weight: boldER;
+    font-family: 'Jomhuria', cursive;
     color: black;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 60px;
 }
 .Bordervisao{
     border-bottom: solid 10px rgba(255, 130, 130, 1);
-    font-size: 28px;
-    letter-spacing: 10px;
     text-align: center;
-    font-weight: bold;
-    font-family: "letter";
+    font-weight: bolder;
+    font-family: 'Jomhuria', cursive;
     color: black;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 60px;
 }
 .Bordervalores{
     border-bottom: solid 10px rgb(236, 240, 19);
     text-align: center;
-    font-weight: bold;
-    font-family: "letter";
+    font-weight: bolder;
+    font-family: 'Jomhuria', cursive;
     color: black;
     letter-spacing: 2px;
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 60px;
 }
 p{
     text-align: start;
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px;
+    font-family: 'Jomhuria', cursive;
+    font-weight:20;
 }
-
+@media (max-width: 768px) {
+    .new{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .neww{
+        text-align: center !important;
+    }
+}
 /*PATROCÍNIO*/
 
 .texto1{
-    font-size: 50px;
-    text-align: justify;
-    font-family: "letter";
-    margin: 20px;
-    letter-spacing: 2px;
+    font-size: 40px;
+    font-family: 'Jomhuria', cursive;
+    margin: 30px;
+    letter-spacing: 1px;
 }
 .bt{
     width: 260px;
     height: 80px;
-    border: 2px solid #000000;
-    font-size: 20px;
-    cursor: pointer;
-    color: #000000; 
-    font-weight: bolder;
-    margin-left: 498px;
+    font-size: 37px;
+    color: black; 
+    margin:auto;
     display: block;
-    margin: auto;
-    font-family: "letter";
+    font-family: 'Jomhuria', cursive;
     letter-spacing: 1px;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(242, 242, 101);
+    font-weight: bolder;
 }
 .bt:hover{
-    color:whitesmoke;
-    background-color: #c382aa;
-    transition: 1.7s;
+    transition: 1.0s;
     transform: scale(1.1);
-    font-size: 30px;
 }
 @media (max-width: 425px) {
     .texto1{
         text-align: center !important;
         font-size: 50px !important;
-        font-family: none !important;
     }
 }
 
@@ -247,7 +248,7 @@ p{
     color: black;
     font-weight: bolder;
     letter-spacing: 5px;
-    font-family: "letter";
+    font-family: 'Jomhuria', cursive;
     text-align: center;
 }
 .cx1{
@@ -289,27 +290,25 @@ p{
 }
 .contato{
     color: rgb(0, 0, 0);
-    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 38px;
 }
 .btn{
-    
-    margin-top: 65px;
-    width: 104px;
-    background-color: #ffff;
+    margin-top: 60px;
+    border: solid 2px black;
+    width: 150px;
+    background-color: rgb(242, 242, 101);
     color: rgb(0, 0, 0);
-    font-weight: bold;
-    border: 2px solid #000000;
-    cursor: pointer;
-    transition: 0.8s;
-    font-size: 15px;
-    font-family: "letter";
+    font-size: 30px;
+    font-family: 'Jomhuria', cursive;
+    padding: 0px !important;
     letter-spacing: 2px;
 }
 .btn:hover {
-    transition: 1s ease-in-out;
+    transition: 0.5s ease-in-out;
     background: blue;
-    color: whitesmoke;
-    font-size: 20px;
+    color: white;
 }
 .btn span {
     color: white;
