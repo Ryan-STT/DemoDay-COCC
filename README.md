@@ -25,9 +25,9 @@
 
 ## Descrição do Projeto
 
-COCC (Centro de Oportunidade Cultural à Criança) é um projeto de TCC, desenvolvido em JavaScript, com o propósito de criar um site para crianças, de 5 a 12 anos, com conteúdo cultural de músicas, livros, desenhos e jogos. Foi estruturado em HTML e CSS com DataBase das informações do cliente.
+Centro de Oportunidade Cultural à Criança é um projeto de TCC, desenvolvido com linguagem Java, com o propósito de criar um site para crianças de 5 a 12 anos, com conteúdo cultural brasileiro de músicas, livros, desenhos e quiz para o desenvolvimento infantil. Além disso, auxiliando os pais para a segurança e monitoramento de seus filhos na internet. Foi estruturado em HTML5, CSS3, JavaScript e banco de dados SQL.
 
 ## Observações
 
 - Marcamos nossas reuniões as terças feiras para discutir as etapas do trabalho e ajudar em problemas, entregamos semanalmente o que foi decidido as terças.
-- Site desenvolvido em JavaScript.
+- Site desenvolvido em Java.
