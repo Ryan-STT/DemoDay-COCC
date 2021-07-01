@@ -16,6 +16,9 @@ body{
             background-position: 0 50%;
         }   
 }
+.hide{
+    display: none !important;
+}
 .row{
     margin-top: 10%;
 }
@@ -62,12 +65,12 @@ animation: bounce 1s linear;
 button{
     cursor:auto !important;
 }
-.active:hover{
-    font-size: 25px;
-}
 button:focus {
     outline: none !important;
     outline: 0px auto -webkit-focus-ring-color !important;
+}
+.active{
+    font-size: 20px !important;
 }
 .modal-title{
     font-size: 30px;
@@ -75,6 +78,11 @@ button:focus {
 }
 .modal-body{
     font-size: 20px;
+    padding: 5px 20px !important ;
+}
+.modal-footer{
+    padding: 0px 20px !important ;
+    margin-bottom: 10px !important;
 }
 @media (max-width: 425px) {
     .bemm{
@@ -87,5 +95,15 @@ button:focus {
     }
     .bem{
         font-size: 25px;
+    }
+}
+@media (max-width: 768px) {
+    .hide{
+        display: block !important;
+        margin: auto;
+        margin-bottom: 10px !important;
+    }
+    .aparecer{
+        display: none !important;
     }
 }
