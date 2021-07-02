@@ -1,0 +1,323 @@
+/*FONTE*/
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 15s ease-in infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 70%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 70%;
+    }
+}
+
+/*LOGOTIPO*/
+
+.efeito-logo{
+    overflow: hidden
+}
+.efeito-logo img {
+    max-width:100%;
+    -moz-transition :(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+    transform: scale(0.9);
+}
+.efeito-logo:hover img{
+    -moz-transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar {
+    padding-top: .0rem;
+    padding-bottom: .0rem;
+}
+h2{
+    font-size: 30px;
+    padding: 0;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 20px;
+}
+h1{
+    align-items: center;
+    position: absolute;
+    transform: translateX(-50%) translateY(50%);
+    left: 50%;
+    top: -15px;
+    font-size: 30px;
+    font-weight: bold; 
+}
+.bg-body{
+    background-color: rgb(252, 250, 250);
+}
+.bg-black{
+    background-color: black;
+}
+
+/*SOBRE*/
+
+/*SOBRE OS MEMBROS*/
+
+.text{
+    font-family: 'Jomhuria', cursive;
+    font-size: 45px;
+    margin-left: 80px;
+    margin-right: 80px;
+    letter-spacing: 1px;
+}
+
+/*CARDS MEMBROS*/
+
+.box{
+    background-image: url(img/fundo.jpg);
+    box-shadow: 0 0 0 1px #e2e9ed;
+    padding: 60px 10px;
+    position: relative;
+    z-index: 0;
+    transition: 0.2s all;
+    border-radius: 10%;
+    margin-bottom: 20px;
+}
+.box:hover{
+    z-index: 1;
+    box-shadow: 0 8px 50px rgb(0,0,0,0.2);
+    transform: scale(1.05);
+}
+.box .avtar{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto 20px;   
+}
+.box .box_content{
+    margin: 10px 0;
+}
+.box .box_content .title{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin: 0;
+}
+.box .box_content .post{
+    font-size: 15px;
+    line-height: 2.375rem;
+    color: #6f808a;
+}
+.box .icons{
+    margin: 0;
+    padding: 0;
+    list-style-type: nome;
+    opacity: 0;
+    transform: translate(10px);
+    transition: 0.2s all;
+}
+.box:hover .icons{
+    opacity: 1;
+    transform: translate(0px);
+}
+.box .icons li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.box .icons li a{
+    color: #515f65;
+}
+
+@media (max-width: 768px) {
+    .box{
+        padding: 0px !important;
+    }
+    .avtar{
+        width: 200px !important;
+    }
+    .text{
+        font-size: 30px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .navbar-collapse{
+        text-align: center;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
+}
+
+/*PROPOSITO*/
+
+.Bordermissoes{
+    border-bottom: solid 10px rgba(119, 184, 219, 1);
+    text-align: center;
+    font-weight: boldER;
+    font-family: 'Jomhuria', cursive;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.Bordervisao{
+    border-bottom: solid 10px rgba(255, 130, 130, 1);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Jomhuria', cursive;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.Bordervalores{
+    border-bottom: solid 10px rgb(236, 240, 19);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Jomhuria', cursive;
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+p{
+    text-align: start;
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Jomhuria', cursive;
+    font-weight:20;
+}
+@media (max-width: 768px) {
+    .new{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+    .neww{
+        text-align: center !important;
+    }
+}
+/*PATROCÍNIO*/
+
+.texto1{
+    font-size: 40px;
+    font-family: 'Jomhuria', cursive;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+.bt{
+    width: 260px;
+    height: 80px;
+    font-size: 37px;
+    color: black; 
+    margin:auto;
+    display: block;
+    font-family: 'Jomhuria', cursive;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(242, 242, 101);
+    font-weight: bolder;
+}
+.bt:hover{
+    transition: 1.0s;
+    transform: scale(1.1);
+}
+@media (max-width: 425px) {
+    .texto1{
+        text-align: center !important;
+        font-size: 50px !important;
+    }
+}
+
+/*CONTATO*/
+
+.titulo{
+    border-bottom: solid 5px blue;
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-family: 'Jomhuria', cursive;
+    text-align: center;
+}
+.cx1{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx2{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000; 
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx3{
+    margin-top: 15px;
+    width: 446px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+.cx4{
+    text-align: start;
+    margin-top: 15px;
+    width: 446px;
+    height: 110px;
+    border: 2px solid #000000;
+    font-weight: bold;
+    max-width: 100%;
+}
+::placeholder{
+    font-weight: bolder;
+    text-align: justify;
+}
+.mapa{
+    width: 100%;
+}
+.contato{
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-family: 'Jomhuria', cursive;
+    font-size: 38px;
+}
+.btn{
+    margin-top: 60px;
+    border: solid 2px black;
+    width: 150px;
+    background-color: rgb(242, 242, 101);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Jomhuria', cursive;
+    padding: 0px !important;
+    letter-spacing: 2px;
+}
+.btn:hover {
+    transition: 0.5s ease-in-out;
+    background: blue;
+    color: white;
+}
+.btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+@media (min-width: 425px) {
+    .btn{
+        float : right;
+        margin-right: 100px;
+    }
+}
