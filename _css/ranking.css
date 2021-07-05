@@ -1,0 +1,94 @@
+/*FONTE*/
+
+body {
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 15s ease-in infinite;
+}
+@keyframes change {
+    0%{
+        background-position: 0 70%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 70%;
+    }
+}
+
+@font-face {
+    font-family: "pixelmon";
+    src: url("VEZTRO.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*FUNDO*/
+
+.main-title{
+    font-family: "pixelmon";
+    font-size: 60px;
+    color: white;
+    padding: 20px;
+}
+
+/*USUARIO*/
+
+.box{
+    max-width: 100%;
+    height: 20%;
+    color: white;
+    border: solid 5px white;
+    margin-bottom: 20px;
+}
+.pts{
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+/*TABELA*/
+
+.table{
+    border: solid 3px  white;
+    font-family: "pixelmon";
+    letter-spacing: 2px;
+}
+.inicio{
+    border: solid 4x white;
+}
+
+/*CABEÇALHO TABELA*/
+
+th{
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+/*INFORMAÇÕES*/
+
+td{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+@media (max-width: 425px) {
+    th, td{
+        font-size: 10px !important;
+    }
+    .pts{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .main-title{
+        text-align: center;
+    }
+}

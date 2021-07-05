@@ -1,0 +1,76 @@
+/*FONTE*/
+
+@font-face {
+    font-family: "pixelmon";
+    src: url(upheavtt.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*TELA DE USUARIO*/
+
+body{
+    background-repeat: no-repeat;
+    background: linear-gradient(45deg, #1e90ff, #fa89ec, #ffdb58);
+    background-size: 400% 300%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+@keyframes change {
+    0%{
+            background-position: 0 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        100%{
+            background-position: 0 50%;
+        }   
+}
+.img{
+    border-radius: 250px;
+    border: solid 2px salmon;
+    width: 300px;
+    box-shadow: -1px 2px 20px 0px black;
+}
+p{
+    text-align: center;
+    font-family: "pixelmon";
+    font-size: 25px;
+}
+h1,h2{
+    text-align: center;
+    font-family: "pixelmon";
+}
+.op{
+    text-align: center;
+    font-family: "pixelmon";
+    font-size: 58px;
+}
+th{
+    border-right: solid 5px black;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.borda{
+    border: solid 5px black;
+}
+.borda-guardiao{
+    border: solid 5px black;
+    margin-top: -12px;
+    align-items:center;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: coral;
+}
+@media (min-width: 1440px) {
+    .tabelaa{
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+}
