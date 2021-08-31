@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/720267c82f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--TELA INICIAL DO QUIZ-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="texto1">Bem vindo ao Quiz!</h1>
+                <br>
+                <h2 class="texto">Clique no botão para iniciar essa aventura ao conhecimento!</h2>
+                <br>
+                <button class="start_btn buttonP mx-auto">Começar</button>
+            </div>
+        </div>
+    </div>
+    
+    <!--CAIXA DE INFORMAÇÕES-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>Instruções</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. Você tem <span> 60 segundos</span> para responder cada pergunta.</div>
+            <div class="info">2. Responda com calma todas as perguntas.</div>
+            <div class="info">3. Cada pergunta terá uma quantia de pontos.</div>
+            <div class="info">4. Logo depois do Quiz, você pode conferir o ranking.</div>
+            <div class="info">5. Não pegue respostas de outros lugares.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair do Quiz</button>
+            <button class="restart">Vamos lá!</button>
+        </div>
+    </div>
+
+    <!--CAIXA DO QUIZ-->
+    <div class="quiz_box">
+        <header>
+            <div class="title">QUIZ</div>
+            <div class="timer">
+                <div class="time_text">Tempo Restante:</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+               <!--<span>O que o fazendeiro cuida no dia a dia?</span>-->
+            </div>
+
+            <!--PARTE AUDITIVA-->
+            <audio controls id="audio1">
+               <source src="ID Perg. - 1  ID Conteu. - 1.mp4" type="audio/mpeg">
+            </audio>
+            
+            <div class="option_list">
+               <!-- <div class="option">
+                    <span>A) Cuida da sua plantação, alimenta suas galinhas e ovelhas.</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>B) Alimenta suas cabras."</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>C) Passeia pela fazenda.</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>-->
+            </div>
+        </section>
+
+        <!--PARTE INFERIOR DA CAIXA DO QUIZ-->
+        <footer>
+            <div class="total_que">
+                <!--<span><p>2</p>of<p>5</p>Questions</span>-->
+            </div>
+            <button class="next_btn">Próxima</button>
+        </footer>
+    </div>
+    
+    <!--RESULTADO DO QUIZ-->
+    <div class="result_box">
+        <div class="icon">
+            <!--<img src="crianc3a7a-pensando.jpg">-->
+        </div>
+        <div class="complete_text">Fim do Quiz!</div>
+        <div class="score_text">
+            <span class="score_center">Você acertou<p>1</p>peguntas</span>
+        </div>
+        <div class="buttons">
+            <button class="ranking">Ranking</button>
+            <button class="quit">Sair</button>
+        </div>
+    </div>
+
+    <script src="js/question.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
