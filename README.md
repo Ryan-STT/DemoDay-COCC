@@ -30,4 +30,4 @@ Centro de Oportunidade Cultural à Criança é um projeto de TCC, desenvolvido c
 ## Observações
 
 - Marcamos nossas reuniões as terças feiras para discutir as etapas do trabalho e ajudar em problemas, entregamos semanalmente o que foi decidido as terças.
-- Site desenvolvido em Java.
+- Site desenvolvido em Java, JavaScript, HTML5, CSS3, BootStrap, XAMPP, MySql e Sql
