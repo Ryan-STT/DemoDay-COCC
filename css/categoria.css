@@ -1,13 +1,13 @@
 /*FONTE*/
 @font-face {
     font-family: "letter";
-    src: url("VEZTRO.ttf") format("opentype");
+    src: url("fontes/VEZTRO.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: "pixelmon";
-    src: url(upheavtt.ttf) format("opentype");
+    src: url("fontes/upheavtt.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -261,8 +261,6 @@ animation: bounce 1s linear;
         transform: translateY(-4px);
     }
 }
-
- 
 
 
 @media (max-width: 768px) {
