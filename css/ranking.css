@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: "pixelmon";
-    src: url("VEZTRO.ttf") format("opentype");
+    src: url("fontes/VEZTRO.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
