@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="imagens/interface/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/quiz.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://kit.fontawesome.com/720267c82f.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>COCC - QUIZ</title>
 </head>
 
 <body>
@@ -55,16 +56,13 @@
         </header>
         <section>
             <div class="que_text">
-               <!--<span>O que o fazendeiro cuida no dia a dia?</span>-->
+                <!--<span>O que o fazendeiro cuida no dia a dia?</span>-->
             </div>
 
-            <!--PARTE AUDITIVA-->
-            <audio controls id="audio1">
-               <source src="ID Perg. - 1  ID Conteu. - 1.mp4" type="audio/mpeg">
-            </audio>
+           
             
             <div class="option_list">
-               <!-- <div class="option">
+                <!-- <div class="option">
                     <span>A) Cuida da sua plantação, alimenta suas galinhas e ovelhas.</span>
                     <div class="icon cross"><i class="fas fa-times"></i></div>
                 </div>
@@ -91,7 +89,7 @@
     <!--RESULTADO DO QUIZ-->
     <div class="result_box">
         <div class="icon">
-            <!--<img src="crianc3a7a-pensando.jpg">-->
+            <img class="img-fluid" src="imagens/quiz/ben-white-4K2lIP0zc_k-unsplash.jpg">
         </div>
         <div class="complete_text">Fim do Quiz!</div>
         <div class="score_text">
@@ -103,7 +101,7 @@
         </div>
     </div>
 
-    <script src="js/question.js"></script>
-    <script src="js/script.js"></script>
+    <script src="javascript/quizquestion.js"></script>
+    <script src="javascript/quiz.js"></script>
 </body>
 </html>

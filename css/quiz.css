@@ -22,28 +22,11 @@ body{
 /*FONTES*/
 @font-face {
     font-family: "fonte";
-    src: url("the_castle_elizah/The\ Castle\ Elizah.ttf") format("opentype");
+    src: url("fontes/Happy\ Lucky\ Free.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: "fonte2";
-    src: url("serif/SERIBL__.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "fonte3";
-    src: url("vanio/VanioTrial-Bold.ttf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "fonte4";
-    src: url("roboto/Roboto-Regular.ttf") format("opentype");
-    font-weight: 10px !important;
-    font-style: normal;
-}
+
 
 /*PARTE AUDITIVA*/
 audio {
