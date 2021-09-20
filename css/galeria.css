@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "pixelmon";
-    src: url(VEZTRO.ttf) format("opentype");
+    src: url(fontes/VEZTRO.ttf) format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@ body {
 
 @font-face {
     font-family: "letter";
-    src: url("VEZTRO.ttf") format("opentype");
+    src: url("fontes/VEZTRO.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -91,7 +91,7 @@ body {
         }
 }
 .peixonauta {
-    background-image: url(img/Banner_Pixonauta_1.0.jpg);
+    background-image: url(../imagens/galeria/banner-peixonauta.jpg);
 }
 .deondevem {
     background-repeat: no-repeat;
