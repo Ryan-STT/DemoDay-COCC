@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "pixelmon";
-    src: url(upheavtt.ttf) format("opentype");
+    src: url("fontes/upheavtt.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }

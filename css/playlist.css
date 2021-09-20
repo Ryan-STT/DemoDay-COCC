@@ -1,12 +1,12 @@
 @font-face{
     font-family: "letter";
-    src: url("Happy\ Lucky\ Free.ttf") format("opentype");
+    src: url("fontes/Happy\ Lucky\ Free.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face{
     font-family: "letter1";
-    src: url("DiscotecaRounded_Free_For_Personal_Use.ttf") format("opentype");
+    src: url("fontes/DiscotecaRounded_Free_For_Personal_Use.ttf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
