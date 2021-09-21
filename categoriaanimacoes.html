@@ -4,66 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="categoria.css" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/interface/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/720267c82f.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/headerlogado.css">
     <link rel="stylesheet" href="css/categoria.css">
-    <title>Animações</title>
+    <title>Desenhos</title>
 </head>
 <body>
 
-        <!--CABEÇALHO-->
+    <!--CABEÇALHO-->
 
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-black ml-auto">
-                <a class="navbar-brand efeito efeito-logo" href="<%=base_url%>">
-                    <img src="<%=base_url%>_img/logo-cocc.jpg" alt="LOGOTIPO">
-                </a>
-                <!--LOGOTIPO-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <!--ICONES DE MENU-->
-    
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">    
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link efeito efeito-musicas" href="<%=base_url%>musicas.jsp"><i class="fas fa-headphones"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link efeito efeito-desenhos" href="<%=base_url%>animacoesjsp"><i class="fab fa-youtube"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link efeito efeito-livros" href="<%=base_url%>livros.jsp"><i class="fas fa-book"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link efeito efeito-desenhe" href="<%=base_url%>lousamagica.jsp"><i class="fas fa-pencil-ruler"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link efeito efeito-ranking" href="<%=base_url%>ranking.jsp"><i class="fas fa-medal"></i></a>
-                        </li>
-                    </ul>
-                </div>
-    
-                <!--ICONE DE LOGIN-->
-    
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="float: right; margin-right:90px;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://img.icons8.com/dusk/64/000000/circled-user-male-skin-type-7.png"/></a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="<%=base_url%>telausuario.jsp"><i class="fas fa-user-edit"></i>   Meu Perfil</a></li>
-                        <li><a class="dropdown-item" href="#"><i class="fas fa-users-cog"></i>   Trocar de Usuario</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#"><i class="fas fa-user-alt-slash"></i>    Sair</a></li>
-                    </ul>
-                </li>
-            </nav>
-        </header>
-    
-        <!--FIM DO CABEÇALHO-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black ml-auto">
+            <a class="navbar-brand efeito efeito-logo" href="index.html">
+                <img src="imagens/interface/logotipo.jpg" alt="LOGOTIPO">
+            </a>
+            <!--LOGOTIPO-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--ICONES DE MENU-->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">    
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link efeito efeito-musicas" href="categoriamusicas.html"><i class="fas fa-headphones"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link efeito efeito-desenhos" href="categoriaanimacoes.html"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link efeito efeito-livros" href="biblioteca.html"><i class="fas fa-book"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link efeito efeito-desenhe" href="lousamagica.html"><i class="fas fa-pencil-ruler"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link efeito efeito-ranking" href="ranking.html"><i class="fas fa-medal"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ICONE DE LOGIN-->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="float: right; margin-right:90px;" href="telausuario.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://img.icons8.com/dusk/64/000000/circled-user-male-skin-type-7.png"/></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="telausuario.html"><i class="fas fa-user-edit"></i>   Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fas fa-users-cog"></i>   Trocar de Usuario</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><i class="fas fa-user-alt-slash"></i>    Sair</a></li>
+                </ul>
+            </li>
+        </nav>
+    </header>
+
+    <!--FIM DO CABEÇALHO-->
 
     <!--ICONES ANIMACOES-->
 
@@ -76,70 +78,71 @@
                 <div class="col-md-4 mx-auto tablet">
                     <div class="card efeito-card">
                         <img class="card-img-top taImagens" src="imagens/categoria/animacoes/turma-do-folclore.jpg" alt="TurmaDoFolclore">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Turma Do Folclore</h5>
-                        <p class="card-text mb-5">A Turma do Folclore é uma galerinha que faz parte da cultura e das tradições populares do nosso Brasil. 
-                            Eles adoram brincar pela floresta e proteger a natureza</p>
-                        <a href="turmadofolclore.html" class="btn btn-primary efeito efeito-botao mt-1 mb-2"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Turma Do Folclore</h5>
+                                <p class="card-text mb-5">A Turma do Folclore é uma galerinha que faz parte da cultura e das tradições populares do nosso Brasil. 
+                                Eles adoram brincar pela floresta e proteger a natureza</p>
+                            <a href="turmadofolclore.html" class="btn btn-primary efeito efeito-botao mt-1 mb-2"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 mx-auto tablet">
-                <div class="card efeito-card">
-                    <img class="card-img-top taImagens" src="imagens/categoria/animacoes/turma-da-monica.jpg" alt="TurmaDaMonica">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Turma Da Mônica</h5>
-                        <p class="card-text turma monica">Um grupo de amigos está sempre se metendo em confusões 
-                            no Bairro do Limoeiro. Acompanhe todas as aventuras da Mônica e do resto da 
-                            turminha</p>
+                <div class="col-md-4 mx-auto tablet">
+                    <div class="card efeito-card">
+                        <img class="card-img-top taImagens" src="imagens/categoria/animacoes/turma-da-monica.jpg" alt="TurmaDaMonica">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Turma Da Mônica</h5>
+                                <p class="card-text turma monica">Um grupo de amigos está sempre se metendo em confusões 
+                                no Bairro do Limoeiro. Acompanhe todas as aventuras da Mônica e do resto da 
+                                turminha</p>
                         <a href="turmadamonica.html" class="btn btn-primary efeito efeito-botao mt-2 mb-3"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
                 <div class="col-md-4 mx-auto tablet">
                     <div class="card efeito-card">
                         <img class="card-img-top taImagens" src="imagens/categoria/animacoes/quintal-da-cultura.jpeg" alt="QuintalDaCultura">
                         <div class="card-body text-center ">
                             <h5 class="card-title">Quintal Da Cultura</h5>
-                            <p class="card-text mb-5">Os irmãos Ludovico e Doroteia, o seu amigos brincam e se divertem aprendendo coisas novas ao lado de um jabuti chamado Quelônio</p>
+                                <p class="card-text mb-5">Os irmãos Ludovico e Doroteia, o seu amigos brincam e se divertem aprendendo coisas novas ao lado de um jabuti chamado Quelônio</p>
                             <a href="quintaldacultura.html" class="btn btn-primary efeito efeito-botao mb-3"><i class="fab fa-youtube">          EPISODIOS</i></a>
                         </div>
                     </div>
                 </div>
 
-            <!--LINHA 2-->
+                <!--LINHA 2-->
 
-            <div class="col-md-4 mx-auto tablet">
-                <div class="card efeito-card">
-                    <img class="card-img-top taImagens" src="imagens/categoria/animacoes/peixonauta.jpeg" alt="Peixonauta">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Peixonauta</h5>
-                        <p class="card-text peixonautau">Peixonauta  é um peixe dentro de um traje similar ao de um astronauta que o permite voar e respirar fora d'água, venha acompanhar ele e seus amigos (Marina e Zico) nessa aventura</p>
+                <div class="col-md-4 mx-auto tablet">
+                    <div class="card efeito-card">
+                        <img class="card-img-top taImagens" src="imagens/categoria/animacoes/peixonauta.jpeg" alt="Peixonauta">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Peixonauta</h5>
+                            <p class="card-text peixonautau">Peixonauta  é um peixe dentro de um traje similar ao de um astronauta que o permite voar e respirar fora d'água, venha acompanhar ele e seus amigos (Marina e Zico) nessa aventura</p>
                         <a href="peixonauta.html" class="btn btn-primary efeito efeito-botao mt-4 mb-3"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto tablet">
+                    <div class="card efeito-card">
+                        <img class="card-img-top taImagens" src="imagens/categoria/animacoes/de-onde-vem.jpeg" alt="DeOndeVem">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">De Onde Vem?</h5>
+                                <p class="card-text deOnde mb-5">Uma menininha chamada Kika, com apenas cinco anos de idade faz perguntas de sobra sobre tudo o que acontece ao seu redor.  “De onde vem” as coisas, é a pergunta que vamos desvendar</p>
+                            <a href="deondevem.html" class="btn btn-primary deOndebt onde efeito efeito-botao mt-5 mb-4"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mx-auto tablet">
+                    <div class="card efeito-card">
+                        <img class="card-img-top taImagens" src="imagens/categoria/animacoes/chico-bento.jpg" alt="ChicoBentp">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Chico Bento</h5>
+                                <p class="card-text Chicoo">Chico Bento é um personagem típico caipira brasileiro, anda descalço, usa chapéu de palha e adora pescar com o pai. Venha curtir as aventuras emocionantes de Chico e seus amigos</p>
+                            <a href="chicobento.html" class="btn btn-primary efeito efeito-botao mt-4 mb-3"><i class="fab fa-youtube">          EPISODIOS</i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mx-auto tablet">
-                <div class="card efeito-card">
-                    <img class="card-img-top taImagens" src="imagens/categoria/animacoes/de-onde-vem.jpeg" alt="DeOndeVem">
-                    <div class="card-body text-center">
-                    <h5 class="card-title">De Onde Vem?</h5>
-                    <p class="card-text deOnde mb-5">Uma menininha chamada Kika, com apenas cinco anos de idade faz perguntas de sobra sobre tudo o que acontece ao seu redor.  “De onde vem” as coisas, é a pergunta que vamos desvendar</p>
-                    <a href="deondevem.html" class="btn btn-primary deOndebt onde efeito efeito-botao mt-5 mb-4"><i class="fab fa-youtube">          EPISODIOS</i></a>
-                </div>
-            </div>
         </div>
-        <div class="col-md-4 mx-auto tablet">
-            <div class="card efeito-card">
-                <img class="card-img-top taImagens" src="imagens/categoria/animacoes/chico-bento.jpg" alt="ChicoBentp">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Chico Bento</h5>
-                    <p class="card-text Chicoo">Chico Bento é um personagem típico caipira brasileiro, anda descalço, usa chapéu de palha e adora pescar com o pai. Venha curtir as aventuras emocionantes de Chico e seus amigos</p>
-                    <a href="chicobento.html" class="btn btn-primary efeito efeito-botao mt-4 mb-3"><i class="fab fa-youtube">          EPISODIOS</i></a>
-                </div>
-            </div>
-        </div>
-    </div>
     
     <!--FIM DAS ANIMACOES ICONE-->
 

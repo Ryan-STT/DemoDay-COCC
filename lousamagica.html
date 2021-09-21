@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/interface/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/720267c82f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/lousamagica.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="https://kit.fontawesome.com/720267c82f.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/headerlogado.css">
     <title>Lousa Mágica</title>
 </head>
 <body>
@@ -18,8 +21,8 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black ml-auto">
-            <a class="navbar-brand efeito efeito-logo" href="<%=base_url%>">
-            	<img src="<%=base_url%>_img/logo-cocc.jpg" alt="LOGOTIPO">
+            <a class="navbar-brand efeito efeito-logo" href="index.html">
+                <img src="imagens/interface/logotipo.jpg" alt="LOGOTIPO">
             </a>
             <!--LOGOTIPO-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +34,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">    
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link efeito efeito-musicas" href="<%=base_url%>musicas.jsp"><i class="fas fa-headphones"></i></a>
+                        <a class="nav-link efeito efeito-musicas" href="categoriamusicas.html"><i class="fas fa-headphones"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link efeito efeito-desenhos" href="<%=base_url%>animacoesjsp"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-link efeito efeito-desenhos" href="categoriaanimacoes.html"><i class="fab fa-youtube"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link efeito efeito-livros" href="<%=base_url%>livros.jsp"><i class="fas fa-book"></i></a>
+                        <a class="nav-link efeito efeito-livros" href="biblioteca.html"><i class="fas fa-book"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link efeito efeito-desenhe" href="<%=base_url%>lousamagica.jsp"><i class="fas fa-pencil-ruler"></i></a>
+                        <a class="nav-link efeito efeito-desenhe" href="lousamagica.html"><i class="fas fa-pencil-ruler"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link efeito efeito-ranking" href="<%=base_url%>ranking.jsp"><i class="fas fa-medal"></i></a>
+                        <a class="nav-link efeito efeito-ranking" href="ranking.html"><i class="fas fa-medal"></i></a>
                     </li>
                 </ul>
             </div>
@@ -51,9 +54,9 @@
             <!--ICONE DE LOGIN-->
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" style="float: right; margin-right:90px;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://img.icons8.com/dusk/64/000000/circled-user-male-skin-type-7.png"/></a>
+                <a class="nav-link dropdown-toggle" style="float: right; margin-right:90px;" href="telausuario.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="https://img.icons8.com/dusk/64/000000/circled-user-male-skin-type-7.png"/></a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="<%=base_url%>telausuario.jsp"><i class="fas fa-user-edit"></i>   Meu Perfil</a></li>
+                    <li><a class="dropdown-item" href="telausuario.html"><i class="fas fa-user-edit"></i>   Meu Perfil</a></li>
                     <li><a class="dropdown-item" href="#"><i class="fas fa-users-cog"></i>   Trocar de Usuario</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#"><i class="fas fa-user-alt-slash"></i>    Sair</a></li>
@@ -69,7 +72,7 @@
             <div class="controls">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="title text-center efeito-card"><img src="https://img.icons8.com/clouds/90/000000/paint-palette.png"/>   LOUSA MÁGICA</h1>
+                        <h1 class="title text-center efeito-card mt-5"><img src="https://img.icons8.com/clouds/90/000000/paint-palette.png"/>   LOUSA MÁGICA</h1>
                     </div>
                     <div class="col-md-8">
                         <nav class="navbar navbar-expand-lg navbar-light">
@@ -113,11 +116,11 @@
                     </div>
                     </div>
                 <div id="canvas-wrapper"></div>
-                    <div class="size">
+                    <div class="size mt-4">
                         <label for="pen-size">Tamanho</label>
                         <input type="range" id="pen-size" min="1" max="50">
                     </div>
-                    <div class="actions mb-4">
+                    <div class="actions mb-4 mt-4">
                         <button id="reset-canvas">Apagar tudo</button>
                         <button id="save-canvas">Salvar no Computador</button>
                 </div>      
