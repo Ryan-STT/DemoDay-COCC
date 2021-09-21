@@ -67,6 +67,7 @@ h1{
     box-shadow: 0px 4px 8px 0 rgb(61, 61, 61),
                 0px 6px 20px 0 rgb(61, 61, 61);
     transition: all 0.3s ease;
+    margin-bottom: 150px;
 }
 .info_box.activeInfo,
 .quiz_box.activeQuiz,
