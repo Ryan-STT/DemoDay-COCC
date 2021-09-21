@@ -511,14 +511,6 @@ animation: bounce 1s linear;
     svg{
         height: 60px;
     }
-    h4{
-    border-bottom: solid 2px #1296f3;
-    width: 40%;
-    text-align: center;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    }
     .centroo{
         margin: auto;
         text-align: center;
