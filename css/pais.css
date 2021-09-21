@@ -71,6 +71,10 @@ h1{
 
 /*SOBRE OS MEMBROS*/
 
+.equipeft{
+    border-radius: 8%;
+}
+
 .text{
     font-family: 'Jomhuria', cursive;
     font-size: 45px;
@@ -82,7 +86,7 @@ h1{
 /*CARDS MEMBROS*/
 
 .box{
-    background-image: url(img/fundo.jpg);
+    background-image: url(../imagens/pais/fundo.jpg);
     box-shadow: 0 0 0 1px #e2e9ed;
     padding: 60px 10px;
     position: relative;
