@@ -60,7 +60,7 @@ body{
     transform: scale(1.1);
     box-shadow: inset 3px 3px 3px black;
 }
-.col-categoria{
+.categoria{
     padding: 0px 15px;
     margin: auto;
 }
@@ -148,6 +148,12 @@ td{
     }
     .icone2{
         height: 70px;
+    }
+}
+@media (max-width: 768px) {
+    .categoria{
+    flex: 0 0 auto !important;
+    width: 100% !important;
     }
 }
 

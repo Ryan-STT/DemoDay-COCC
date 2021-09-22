@@ -260,3 +260,10 @@ h1{
     font-weight: bolder;
     font-size: 20px;
 }
+
+@media (max-width: 768px) {
+    .categoria{
+    flex: 0 0 auto !important;
+    width: 100% !important;
+    }
+}
